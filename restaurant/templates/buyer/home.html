@@ -1,13 +1,12 @@
 {% extends 'base.html' %} {% block content %}
-<h3>welcome {{request.user}}!</h3>
 {% if restras %}
-<div class="mb-5 mt-5">
-  <h5>Top Restaurants</h5>
+<div class="mb-5 mt-3">
+  <h5><u>Top Restaurants</u></h5>
   <div class="d-flex">
     {% for restra in restras %}
     <div class="card mx-1" style="width: 13rem">
       <a
-        href="{% url 'buyer:restra-detail' restra.id %}"
+        href="{% url 'restaurant:restra-detail' restra.id %}"
         style="text-decoration: none; color: black"
       >
         <div class="card-body">
@@ -29,12 +28,12 @@
   </div>
 </div>
 {% endif %} {% if more_restras %}
-<h5>Some More Restaurants</h5>
+<h5><u>Some More Restaurants</u></h5>
 <div class="d-flex">
   {% for restra in more_restras %}
   <div class="card mx-1" style="width: 13rem">
     <a
-      href="{% url 'buyer:restra-detail' restra.id %}"
+      href="{% url 'restaurant:restra-detail' restra.id %}"
       style="text-decoration: none; color: black"
     >
       <div class="card-body">

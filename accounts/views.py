@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-
+from django.contrib.auth.decorators import login_required
 from .models import Buyer, Vendor
 from .forms import SignInForm
 from django.contrib.auth import authenticate, login, logout
@@ -16,7 +16,7 @@ def signin(request):
         if vendor:
             return redirect('vendor:homepage')
         if buyer:
-            return redirect('buyer:homepage')
+            return redirect('restaurant:homepage')
         if user.is_superuser:
             return redirect('/admin/')
     form = SignInForm(request.POST or None)
@@ -36,9 +36,17 @@ def signin(request):
         if vendor:
             return redirect('vendor:homepage')
         if buyer:
-            return redirect('buyer:homepage')
+            return redirect('restaurant:homepage')
     return render(request, 'accounts/signin.html', {"form":form})
 
 def logout_view(request):
     logout(request)
     return redirect('accounts:signin')
+
+@login_required
+def profile(request):
+    profile = Buyer.objects.get(email=request.user)
+    context = {
+        "profile": profile
+    }
+    return render(request, 'accounts/profile.html', context)

@@ -27,7 +27,7 @@ class Restaurant(models.Model):
     vendor = models.ForeignKey(Vendor, on_delete=models.CASCADE, related_name='owner')
     name = models.CharField(max_length=255)
     desc = models.TextField(null=True, blank=True)
-    location = models.URLField()
+    location = models.TextField()
     active = models.BooleanField(default=True)
     type = models.CharField(choices=RestraType.choices(), max_length=10)
     open_time = models.TimeField()
@@ -37,6 +37,14 @@ class Restaurant(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     objects = RestaurantManager()
+
+class Tag(models.Model):
+    name = models.CharField(max_length=255)
+    created_at= models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.name
 
 class DishQuerySet(models.QuerySet):
     def type(self, type):
@@ -69,10 +77,14 @@ class Dish(models.Model):
     base_price = models.IntegerField()
     shot_description = models.TextField(blank=True, null=True)
     thumbnail = models.ImageField(upload_to='dishes_thumbnail/', null=True, blank=True)
+    tags = models.ManyToManyField(Tag, blank=True, related_name='dishes')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
     objects = DishManager()
+
+    def __str__(self):
+        return self.name
 
 class RestaurantRating(models.Model):
     restaurant = models.ForeignKey(Restaurant, on_delete=models.CASCADE, related_name='rating')

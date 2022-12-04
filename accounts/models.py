@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import (
-    BaseUserManager, AbstractBaseUser
+    BaseUserManager, AbstractBaseUser, AbstractUser
 )
 from django.utils.translation import gettext_lazy as _
 from django.core.exceptions import ValidationError
@@ -47,6 +47,8 @@ class MyUserManager(BaseUserManager):
         return user
 
 class User(AbstractBaseUser):
+    first_name = models.CharField(_("first name"), max_length=255, blank=True)
+    last_name = models.CharField(_("last name"), max_length=255, blank=True)
     email = models.EmailField(max_length=255, unique=True)
     mob_number = models.IntegerField(validators=[validate_length])
     gst_number = models.CharField(max_length=255, null=True, blank=True)
@@ -74,9 +76,6 @@ class User(AbstractBaseUser):
         # Simplest possible answer: Yes, always
         return True
     
-    def save(self,*args, **kwargs):
-        self.set_password(self.password)
-        super().save(*args, **kwargs)
 
 class VendorManager(models.Manager):
 

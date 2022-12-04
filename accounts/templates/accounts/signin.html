@@ -1,19 +1,22 @@
 {% extends 'base.html' %}
 {% load static %} 
+{% load widget_tweaks %}
 {% block content %}
 <div class="mt-2">
   {% for message in messages %} 
       <li{% if message.tags == 'error' %} class="text-danger"{% endif %}>{{ message|safe }}</li>
   {% endfor %}
-  <form action="." method="POST">{% csrf_token %} 
-    {% for field in form %}
-      <div for="{{ field.label }}" class="col-sm-2 col-form-label">
-        {{ field.label_tag  }}
-        {{ field}}
-    </div>
-    {% endfor %}
-    {{ form.non_field_errors }}
-    <button class='btn btn-sm btn-outline-primary' type="submit">Submit</button>
-  </form>
+  <div class="form-group col-6">
+    <form action="." method="POST">{% csrf_token %} 
+      {% for field in form %}
+        <label for="{{ field.label }}" class="col-sm-2 col-form-label">{{ field.label_tag }}</label>
+        <div class="col-sm-5">
+          {% render_field field class="form-control" %}
+        </div>        
+      {% endfor %}
+      {{ form.non_field_errors }}
+      <button class='btn btn-sm btn-outline-primary mt-2' type="submit">Submit</button>
+    </form>
+  </div>
 </div>
 {% endblock content %}

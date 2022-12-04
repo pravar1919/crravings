@@ -13,20 +13,21 @@
         </ul>
         {% if request.user.is_authenticated %}
             <ul class="navbar-nav mb-2 mb-lg-0">
-                <li class="dropdown dropstart">
+                <li class="dropdown">
                     <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <img class="img-fluid" width=50 src="https://cdn.pixabay.com/photo/2020/06/30/10/23/icon-5355896__340.png" />
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Hello, <strong>{{request.user}}</strong></a></li>
+                        <li><a class="dropdown-item" href="{% url 'accounts:profile' %}">Profile</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="{% url 'accounts:logout' %}">Logut</a></li>
                     </ul>
                 </li>
             </ul>
+            Hello, <strong>{{request.user}}</strong> 
         {% else %}
-            <a href="{% url 'accounts:signin' %}" class="btn btn-outline-success" type="submit">Login</a>
+            <a href="{% url 'accounts:signin' %}" class="btn">Login</a>
         {% endif %}
       </div>
     </div>

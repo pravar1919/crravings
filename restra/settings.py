@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'buyer',
     'restaurant',
     'vendor',
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
