@@ -1,0 +1,102 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<div class="mb-3">
+  <div class="d-flex">
+    <h4>{{restra.name}}</h4>
+    {% if restra.ratings %}
+      <small class="my-1 mx-2">
+        <span class="badge 
+          {% if restra.ratings >= 3.5 %} bg-success 
+          {% else %} bg-danger 
+          {% endif %}">
+          {{restra.ratings}} 
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </span>
+        ({{restra.users}})
+      </small>
+    {% endif %}
+  </div>
+</div>
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="menu-tab" data-bs-toggle="tab" href="#menu" type="button" role="tab" aria-controls="menu" aria-selected="true">Menu</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="about-tab" data-bs-toggle="tab" href="#about" type="button" role="tab" aria-controls="about" aria-selected="false">About</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" href="#reviews" type="button" role="tab" aria-controls="reviews" aria-selected="false">Reviews</button>
+  </li>
+</ul>
+<div class="tab-content mt-3" id="myTabContent">
+  <div class="tab-pane fade w-50" id="about" role="tabpanel" aria-labelledby="about-tab">
+    {{restra.desc}}
+  </div>
+  <div class="tab-pane fade show active" id="menu" role="tabpanel" aria-labelledby="menu-tab">
+    <form method="GET" action=".">
+      <div class="d-flex mb-4 col-3 justify-content-around">
+        <label class="form-check-label" for="flexSwitchCheckChecked1">Veg</label>
+        <div class="form-check form-switch">
+          <input class="form-check-input" name="type" type="radio" value="veg" id="flexSwitchCheckChecked1">
+        </div>
+        <label class="form-check-label" for="flexSwitchCheckChecked2">Non-Veg</label>
+        <div class="form-check form-switch">
+          <input class="form-check-input" name="type" type="radio" value="nonveg" id="flexSwitchCheckChecked2">
+        </div>
+        <label class="form-check-label" for="flexSwitchCheckChecked3">Eggs</label>
+        <div class="form-check form-switch">
+          <input class="form-check-input" name="type" type="radio" value="eggs" id="flexSwitchCheckChecked3">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+    {% if dishes %}
+      {% for dish in dishes%}
+      <div class="row mb-3">
+        <div class="col-3">
+          <span>{{dish.name}}</span>
+          <span
+            >{% if dish.type == 'VEG' %}
+            <img height="15" src="{% static 'images/veg.png' %}" />{% else %}<img
+              height="15"
+              src="{% static 'images/nonveg.png' %}"
+            />{% endif %}</span
+          >
+          <p>{{dish.base_price}}</p>
+        </div>
+        <div class="col-3">
+          <img height="100" src="{% if dish.thumbnail %}{{dish.thumbnail.url}}{% endif %}" />
+        </div>
+      </div>
+      {% endfor %}
+    {% else %}
+    <p>No Menu Found</p> 
+    {% endif %} 
+  </div>
+  <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+    {% for review in reviews %}
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <p><i>{{review.buyer}} | <span class="badge bg-secondary">{{review.rating}} &nbsp;<i class="fa fa-star" aria-hidden="true"></i></span></i></p>
+          {% if review.comments %}
+            {{review.comments}}
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+<script>
+  let radio = document.querySelectorAll('input[type=radio]')
+  console.log(radio)
+  let type_ = "{{type}}"
+
+  radio.forEach(r=>{
+    if (r.value === type_.toLowerCase()){
+      r.checked = true
+    }
+  })
+ 
+</script>
+{% endblock content %}
