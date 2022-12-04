@@ -5,8 +5,13 @@ from .forms import SignInForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 from django.views import View
+from accounts.signals import object_viewed_signal
 from django.views.generic import ListView, CreateView, DetailView, DeleteView, UpdateView, FormView
-# Create your views here.
+
+def get_page_tracking(request, obj):
+    ############### User Signal #######################
+    object_viewed_signal.send(obj.__class__,instance=obj,request=request)
+    ###################################################
 
 def signin(request):
     user = request.user
@@ -49,4 +54,5 @@ def profile(request):
     context = {
         "profile": profile
     }
+    get_page_tracking(request, request.user)
     return render(request, 'accounts/profile.html', context)

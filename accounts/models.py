@@ -4,7 +4,10 @@ from django.contrib.auth.models import (
 )
 from django.utils.translation import gettext_lazy as _
 from django.core.exceptions import ValidationError
- 
+from django.contrib.contenttypes.fields import GenericForeignKey
+from django.contrib.contenttypes.models import ContentType
+# from .signals import user_logged_in
+from .signals import object_viewed_signal
 
 
 def validate_length(value):
@@ -107,3 +110,40 @@ class Buyer(User):
 
     class Meta:
         proxy = True
+
+class ObjectViewed(models.Model):
+    user                = models.ForeignKey(User, blank=True, null=True, on_delete=models.SET_NULL)
+    content_type        = models.ForeignKey(ContentType, on_delete=models.SET_NULL, null=True)
+    object_id           = models.PositiveIntegerField()
+    path                = models.CharField(max_length=220, blank=True, null=True)
+    content_object      = GenericForeignKey('content_type', 'object_id')
+    model_name          = models.CharField(max_length=220, blank=True, null=True)
+    model_product_id    = models.CharField(max_length=220, blank=True, null=True)
+    timestamp           = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self, ):
+        return f"{self.content_object} viewed: {self.timestamp}"
+
+    class Meta:
+        ordering = ['-timestamp']
+        verbose_name = 'Object Viewed'
+        verbose_name_plural = 'Objects Viewed'
+
+
+def object_viewed_reciever(sender,instance,request,*args,**kwargs):
+    c_type = ContentType.objects.get_for_model(sender)
+    try:
+        app_name = request.resolver_match.app_name
+        app_instance_id = request.resolver_match.kwargs['pk']
+    except:
+        app_instance_id = ""
+    ObjectViewed.objects.create(
+                user=request.user, 
+                content_type=c_type,
+                object_id=instance.id,
+                path=request.get_full_path(),
+                model_name = app_name,
+                model_product_id = app_instance_id
+                )
+
+object_viewed_signal.connect(object_viewed_reciever)

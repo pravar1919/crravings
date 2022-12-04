@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
-from .models import User, Buyer, Vendor
+from .models import User, Buyer, Vendor, ObjectViewed
 
 class CustomUserAdmin(UserAdmin):
 
@@ -23,3 +23,16 @@ class CustomUserAdmin(UserAdmin):
 admin.site.register(User, CustomUserAdmin)
 admin.site.register(Buyer, CustomUserAdmin)
 admin.site.register(Vendor, CustomUserAdmin)
+
+@admin.register(ObjectViewed)
+class ObjectViewedAdmin(admin.ModelAdmin):
+    menu_group = "Users"
+    menu_title = "Users activity"
+    list_display = ('user','object_id','content_type', 'model_name','model_product_id','path','timestamp')
+    fields = ('user','content_type','object_id','path', 'model_name', 'model_product_id','content_object','timestamp')
+    readonly_fields = ('user','content_type','object_id','path', 'model_name', 'model_product_id','content_object','timestamp')
+    search_fields = ('user__email__icontains',)
+
+
+
+

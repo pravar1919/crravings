@@ -1,0 +1,31 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+{% if search_results %}
+    <div class="d-flex">
+        {% for restra in search_results %}
+        {{restra}}
+        <div class="card mx-1" style="width: 13rem">
+        <a
+            href="{% url 'restaurant:restra-detail' restra.id %}"
+            style="text-decoration: none; color: black"
+        >
+            <div class="card-body">
+            <h6 class="card-title">{{ restra.name }}</h6>
+            <span class="badge 
+                {% if restra.ratings >= 3.5 %} bg-success 
+                {% else %} bg-danger 
+                {% endif %}">
+                {{restra.ratings}} 
+                <i class="fa fa-star" aria-hidden="true"></i>
+            </span>
+            <p class="card-text">
+                <small class="text-muted">{{ restra.desc|truncatewords:10 }}</small>
+            </p>
+            </div>
+        </a>
+        </div>
+        {% endfor %}
+    </div>
+{% else %}
+No result found
+{% endif %}
+{% endblock content %}
