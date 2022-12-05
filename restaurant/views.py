@@ -9,9 +9,8 @@ from accounts.models import ObjectViewed
 # Create your views here.
 
 def get_page_tracking(request, obj):
-    ############### User Signal #######################
-    object_viewed_signal.send(obj.__class__,instance=obj,request=request)
-    ###################################################
+    if request.user.is_authenticated:
+        object_viewed_signal.send(obj.__class__,instance=obj,request=request)
 class HomePage(BuyerLoginRequiredMixin,ListView):
     model = Restaurant
     template_name= "buyer/home.html"
@@ -24,10 +23,11 @@ class HomePage(BuyerLoginRequiredMixin,ListView):
     def get_context_data(self, **kwargs):
         context = super(HomePage, self).get_context_data(**kwargs)
         context['more_restras'] = Restaurant.objects.exclude(id__in=self.get_queryset().values_list('id', flat=True))
-        history_qs = ObjectViewed.objects.filter(user=self.request.user, model_name__contains="restaurant").order_by('-timestamp')
-        if history_qs:
-            h = [i['model_product_id'] for i in history_qs.values('model_product_id')[:5] if i['model_product_id']]
-            context['history'] = Restaurant.objects.rating().filter(id__in=h)
+        if self.request.user.is_authenticated:
+            history_qs = ObjectViewed.objects.filter(user=self.request.user, model_name__contains="restaurant").order_by('-timestamp')
+            if history_qs:
+                h = [i['model_product_id'] for i in history_qs.values('model_product_id')[:5] if i['model_product_id']]
+                context['history'] = Restaurant.objects.rating().filter(id__in=h)
         return context
 
 class Search(View):

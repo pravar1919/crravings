@@ -2,112 +2,21 @@
 
 {% if history %}
 <div class="mb-5 mt-3">
-  <h5><u>Recently Checked Restaurants</u></h5>
-  <div class="d-flex">
-    {% for restra in history %}
-    <div class="card mx-1" style="width: 13rem">
-    <a
-          href="{% url 'restaurant:restra-detail' restra.id %}"
-          style="text-decoration: none; color: black"
-      >
-        <div class="card-body">
-          <h6 class="card-title">{{ restra.name }}</h6>
-          {% if restra.ratings %}
-            <span class="badge 
-                {% if restra.ratings >= 3.5 %} bg-success 
-                {% else %} bg-danger 
-                {% endif %}">
-                {{restra.ratings}} 
-                <i class="fa fa-star" aria-hidden="true"></i>
-            </span>
-          {% endif %}
-          <p class="card-text">
-              <small class="text-muted">{{ restra.desc|truncatewords:10 }}</small>
-          </p>
-        </div>
-    </a>
-    </div>
-    {% endfor %}
-  </div>
+  <h5><u>Recent Restaurants</u></h5>
+  {% include 'buyer/card.html' with object=history %}  
 </div>
 {% endif %}
 {% if restras %}
 <div class="mb-5 mt-3">
   <h5><u>Top Restaurants</u></h5>
-  <div class="d-flex">
-    {% for restra in restras %}
-    <div class="card mx-1" style="width: 13rem">
-      <a
-        href="{% url 'restaurant:restra-detail' restra.id %}"
-        style="text-decoration: none; color: black"
-      >
-        <div class="card-body">
-          <h6 class="card-title">{{ restra.name }}</h6>
-          <span class="badge 
-            {% if restra.ratings >= 3.5 %} bg-success 
-            {% else %} bg-danger 
-            {% endif %}">
-            {{restra.ratings}} 
-            <i class="fa fa-star" aria-hidden="true"></i>
-          </span>
-          <p class="card-text">
-            <small class="text-muted">{{ restra.desc|truncatewords:10 }}</small>
-          </p>
-        </div>
-      </a>
-    </div>
-    {% endfor %}
-  </div>
+  {% include 'buyer/card.html' with object=restras %}  
 </div>
 {% endif %} {% if more_restras %}
-<h5><u>Some More Restaurants</u></h5>
-<div class="d-flex">
-  {% for restra in more_restras %}
-  <div class="card mx-1" style="width: 13rem">
-    <a
-      href="{% url 'restaurant:restra-detail' restra.id %}"
-      style="text-decoration: none; color: black"
-    >
-      <div class="card-body">
-        <h6 class="card-title">{{ restra.name }}</h6>
-        <small class="card-text"
-          >{{ restra.ratings }} {% if restra.ratings %}
-          <i class="fa fa-star" aria-hidden="true"></i>
-          {% endif %}
-        </small>
-        <p class="card-text">
-          <small class="text-muted">{{ restra.desc|truncatewords:10 }}</small>
-        </p>
-      </div>
-    </a>
-  </div>
-  {% endfor %}
-</div>
+<h5><u>Restaurants You May Like</u></h5>
+  {% include 'buyer/card.html' with object=more_restras %}  
 {% endif %} 
+
 {% if search_results %}
-<div class="d-flex">
-  {% for restra in search_results %}
-  <div class="card mx-1" style="width: 13rem">
-  <a
-      href="{% url 'restaurant:restra-detail' restra.id %}"
-      style="text-decoration: none; color: black"
-  >
-      <div class="card-body">
-      <h6 class="card-title">{{ restra.name }}</h6>
-      <span class="badge 
-          {% if restra.ratings >= 3.5 %} bg-success 
-          {% else %} bg-danger 
-          {% endif %}">
-          {{restra.ratings}} 
-          <i class="fa fa-star" aria-hidden="true"></i>
-      </span>
-      <p class="card-text">
-          <small class="text-muted">{{ restra.desc|truncatewords:10 }}</small>
-      </p>
-      </div>
-  </a>
-  </div>
-  {% endfor %}
-</div>
+  {% include 'buyer/card.html' with object=search_results %}  
 {% endif %}
 {% endblock content %}

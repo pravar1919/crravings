@@ -1,5 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
+
+from restaurant.models import Restaurant
 from .models import Buyer, Vendor
 from .forms import SignInForm
 from django.contrib.auth import authenticate, login, logout
@@ -54,5 +56,6 @@ def profile(request):
     context = {
         "profile": profile
     }
+    context['favourates'] = Restaurant.objects.rating().favourities(request.user)
     get_page_tracking(request, request.user)
     return render(request, 'accounts/profile.html', context)

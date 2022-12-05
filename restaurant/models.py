@@ -12,6 +12,10 @@ class RestaurantQuerySet(models.QuerySet):
     def top_rating(self):
         qs = self.rating().filter(ratings__gte=2.5)
         return qs
+    
+    def favourities(self, user):
+        qs = self.filter(favourate_restras__buyer=user)
+        return qs
 
 class RestaurantManager(models.Manager):
     def get_queryset(self):
@@ -22,6 +26,9 @@ class RestaurantManager(models.Manager):
 
     def top_rating(self):
         return self.get_queryset().top_rating()
+    
+    def favourities(self, user):
+        return self.get_queryset().favourities(user)
 
 class Restaurant(models.Model):
     vendor = models.ForeignKey(Vendor, on_delete=models.CASCADE, related_name='owner')
@@ -101,3 +108,9 @@ class DishRating(models.Model):
     buyer = models.ForeignKey(Buyer, on_delete=models.CASCADE, related_name='dish_rating')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+class FavouritiesRestaurants(models.Model):
+    restaurant = models.ForeignKey(Restaurant, on_delete=models.CASCADE, related_name='favourate_restras')
+    buyer = models.ForeignKey(Buyer, on_delete=models.CASCADE, related_name='favourate_restras')
+    created_at = models.DateTimeField(auto_now_add=True)
+    update_at = models.DateTimeField(auto_now=True)

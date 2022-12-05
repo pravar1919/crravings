@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Restaurant, Dish, RestaurantRating, DishRating, Tag
+from .models import Restaurant, Dish, RestaurantRating, DishRating, Tag, FavouritiesRestaurants
 # Register your models here.
 
 
@@ -24,3 +24,4 @@ class DishRatingAdmin(admin.ModelAdmin):
 
 admin.site.register(Tag)
 admin.site.register(Dish)
+admin.site.register(FavouritiesRestaurants)
