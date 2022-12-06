@@ -1,7 +1,7 @@
 from django.shortcuts import redirect, render
 from buyer.mixins import BuyerLoginRequiredMixin
 from utils.decorators import buyer_login_required
-from restaurant.models import Restaurant, RestaurantRating
+from .models import Restaurant, RestaurantRating, City
 from django.views import View
 from django.views.generic import ListView, DetailView
 from accounts.signals import object_viewed_signal
@@ -22,12 +22,13 @@ class HomePage(BuyerLoginRequiredMixin,ListView):
 
     def get_context_data(self, **kwargs):
         context = super(HomePage, self).get_context_data(**kwargs)
-        context['more_restras'] = Restaurant.objects.exclude(id__in=self.get_queryset().values_list('id', flat=True))
+        context['more_restras'] = Restaurant.objects.exclude(id__in=self.get_queryset().values_list('id', flat=True)).order_by("?")
         if self.request.user.is_authenticated:
             history_qs = ObjectViewed.objects.filter(user=self.request.user, model_name__contains="restaurant").order_by('-timestamp')
             if history_qs:
                 h = [i['model_product_id'] for i in history_qs.values('model_product_id')[:5] if i['model_product_id']]
                 context['history'] = Restaurant.objects.rating().filter(id__in=h)
+        context['cities'] = City.objects.all()
         return context
 
 class Search(View):
@@ -35,7 +36,7 @@ class Search(View):
         context = {}
         query = request.GET.get("q")
         if query:
-            context['search_results'] = Restaurant.objects.filter(name__icontains=query)
+            context['search_results'] = Restaurant.objects.rating().filter(name__icontains=query)
             context['query'] = query
         else:
             return redirect("restaurant:homepage")

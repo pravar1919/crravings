@@ -1,19 +1,27 @@
+<style>
+  .shadow{
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important;
+  }
+  .shadow:hover{
+    box-shadow:0 .5rem 1rem !important
+  }
+</style>
 <div class="d-flex">
-    {% for restra in object %}
-    <div class="card mx-1" style="width: 13rem;">
+  {% for restra in object %}
+  <div class="card mx-1 shadow" style="width: 13rem;">
     <a
         href="{% url 'restaurant:restra-detail' restra.id %}"
         style="text-decoration: none; color: black"
     >
-        <div class="card-body">
-          <div class="row">
-            <div class="col-10">
-              <h6 class="card-title">{{ restra.name }}</h6>
-            </div>
-            <div class="col-1">
-              <i class="fa fa-heart" aria-hidden="true"></i>
-            </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-10">
+            <h6 class="card-title" data-bs-toggle="tooltip" data-bs-title="{{ restra.name }}">{{ restra.name }}</h6>
           </div>
+          <!-- <div class="col-1">
+            <a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a>
+          </div> -->
+        </div>
           {% if restra.ratings %}
           <span class="badge 
               {% if restra.ratings >= 3.5 %} bg-success 
@@ -24,10 +32,10 @@
           </span>
           {% endif %}
           <p class="card-text">
-              <small class="text-muted">{{ restra.desc|truncatewords:10 }}</small>
+            <small class="text-muted">{{ restra.desc|truncatewords:10 }}</small>
           </p>
         </div>
-    </a>
+      </a>
     </div>
     {% endfor %}
   </div>

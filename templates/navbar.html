@@ -11,6 +11,18 @@
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </ul>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Select City
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              {% for city in cities %}
+                <li><a class="dropdown-item" href="#">{{city}}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
         {% if request.user.is_authenticated %}
             Hi, <strong>{{request.user}}</strong> 
             <ul class="navbar-nav mb-2 mb-lg-0">
@@ -18,7 +30,7 @@
                     <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <img class="img-fluid" width=50 src="https://cdn.pixabay.com/photo/2020/06/30/10/23/icon-5355896__340.png" />
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="{% url 'accounts:profile' %}">Profile</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><hr class="dropdown-divider"></li>

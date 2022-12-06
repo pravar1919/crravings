@@ -4,6 +4,12 @@ from django.db import models
 from accounts.models import Buyer, Vendor
 from base.constants import Round, Type, RestraType
 
+class City(models.Model):
+    name = models.CharField(max_length=220)
+
+    def __str__(self):
+        return self.name
+
 class RestaurantQuerySet(models.QuerySet):
     def rating(self):
         qs = self.annotate(ratings=Round(Avg('rating__rating')), users=Count('rating__buyer'))
@@ -32,6 +38,7 @@ class RestaurantManager(models.Manager):
 
 class Restaurant(models.Model):
     vendor = models.ForeignKey(Vendor, on_delete=models.CASCADE, related_name='owner')
+    city = models.ForeignKey(City, on_delete=models.CASCADE, related_name='restra')
     name = models.CharField(max_length=255)
     desc = models.TextField(null=True, blank=True)
     location = models.TextField()
