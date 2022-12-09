@@ -1,11 +1,13 @@
 from django.shortcuts import redirect, render
 from buyer.mixins import BuyerLoginRequiredMixin
 from utils.decorators import buyer_login_required
-from .models import Restaurant, RestaurantRating, City
+from .models import Dish, Restaurant, RestaurantRating, City
 from django.views import View
 from django.views.generic import ListView, DetailView
 from accounts.signals import object_viewed_signal
 from accounts.models import ObjectViewed
+from django.db.models import Avg,Count
+from base.constants import Round
 # Create your views here.
 
 def get_page_tracking(request, obj):
@@ -55,7 +57,12 @@ class RestaurantDetail(DetailView):
             type=type.upper()
         context = super(RestaurantDetail, self).get_context_data(**kwargs)
         context['type'] = type
-        context['dishes'] = self.get_queryset().get(id=kwargs['object'].id).dishes.type(type).all()
+        dishes = self.get_queryset().get(id=self.object.id).dishes.type(type).all()
+        context['dishes'] = dishes
+        print(dishes.values_list('id'))
+        context['dishe_rating'] = Dish.objects.filter(id__in=dishes.values_list('id')).annotate(ratings=Round(Avg('rating__rating')), users=Count('rating__buyer'))#.rating.all()
+        for i in Dish.objects.filter(id__in=dishes.values_list('id')):
+            print(i)
         context['reviews'] = RestaurantRating.objects.filter(restaurant=kwargs['object']).order_by('-created_at')
         get_page_tracking(self.request, self.request.user)
         return context

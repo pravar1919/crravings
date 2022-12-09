@@ -68,6 +68,23 @@
             />{% endif %}</span
           >
           <p>{{dish.base_price}}</p>
+          {% for i in dishe_rating %}
+          {% if i.id == dish.id %}
+          {% if i.ratings %}
+          <small class="my-1 mx-2">
+            <span class="badge 
+              {% if restra.ratings >= 2 %} bg-success 
+              {% else %} bg-danger 
+              {% endif %}">
+              {{i.ratings}}
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </span>
+            ({{i.users}})
+          </small>
+          {% endif %}
+          {% endif %}
+          {% endfor %}
+          </p>
         </div>
         <div class="col-3">
           <img height="100" src="{% if dish.thumbnail %}{{dish.thumbnail.url}}{% endif %}" />
