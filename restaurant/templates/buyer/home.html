@@ -1,5 +1,7 @@
 {% extends 'base.html' %} {% block content %}
-
+{% for message in messages %} 
+<p class="{% if message.tags == 'error' %}text-danger {% else %}text-success{% endif %}">{{ message }}</p>
+{% endfor %}
 {% if history %}
 <div class="mb-5 mt-3">
   <h5><u>Recent Restaurants</u></h5>
@@ -17,6 +19,6 @@
 {% endif %} 
 
 {% if search_results %}
-  {% include 'buyer/card.html' with object=search_results %}  
+  {% include 'buyer/card.html' with object=search_results %}
 {% endif %}
 {% endblock content %}

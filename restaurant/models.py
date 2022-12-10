@@ -61,6 +61,10 @@ class Tag(models.Model):
         return self.name
 
 class DishQuerySet(models.QuerySet):
+    def rating(self):
+        qs = self.annotate(ratings=Round(Avg('rating__rating')), users=Count('rating__buyer'))
+        return qs
+
     def type(self, type):
         if type:
             qs = self.filter(type=type)
@@ -77,6 +81,10 @@ class DishQuerySet(models.QuerySet):
 class DishManager(models.Manager):
     def get_queryset(self):
         return DishQuerySet(self.model, using=self._db)
+
+    def rating(self):
+        qs = self.get_queryset().rating()
+        return qs
 
     def type(self, type):
         return self.get_queryset().type(type)

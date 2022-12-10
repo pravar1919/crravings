@@ -23,7 +23,7 @@ def signin(request):
         if vendor:
             return redirect('vendor:homepage')
         if buyer:
-            return redirect('restaurant:homepage')
+            return redirect('restaurant:homepage', "Ahmedabad")
         if user.is_superuser:
             return redirect('/admin/')
     form = SignInForm(request.POST or None)
@@ -43,7 +43,7 @@ def signin(request):
         if vendor:
             return redirect('vendor:homepage')
         if buyer:
-            return redirect('restaurant:homepage')
+            return redirect('restaurant:homepage', "Ahmedabad")
     return render(request, 'accounts/signin.html', {"form":form})
 
 def logout_view(request):

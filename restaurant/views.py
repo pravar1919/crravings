@@ -6,8 +6,7 @@ from django.views import View
 from django.views.generic import ListView, DetailView
 from accounts.signals import object_viewed_signal
 from accounts.models import ObjectViewed
-from django.db.models import Avg,Count
-from base.constants import Round
+from django.contrib import messages
 # Create your views here.
 
 def get_page_tracking(request, obj):
@@ -19,18 +18,19 @@ class HomePage(BuyerLoginRequiredMixin,ListView):
     context_object_name = 'restras'
 
     def get_queryset(self):
-        queryset = Restaurant.objects.top_rating().order_by('-ratings')
+        queryset = Restaurant.objects.filter(city__name__icontains=self.kwargs.get('city')).top_rating().order_by('-ratings')
         return queryset
 
     def get_context_data(self, **kwargs):
         context = super(HomePage, self).get_context_data(**kwargs)
-        context['more_restras'] = Restaurant.objects.exclude(id__in=self.get_queryset().values_list('id', flat=True)).order_by("?")
+        context['more_restras'] = Restaurant.objects.filter(city__name__icontains=self.kwargs.get('city')).exclude(id__in=self.get_queryset().values_list('id', flat=True)).order_by("?")
         if self.request.user.is_authenticated:
             history_qs = ObjectViewed.objects.filter(user=self.request.user, model_name__contains="restaurant").order_by('-timestamp')
             if history_qs:
                 h = [i['model_product_id'] for i in history_qs.values('model_product_id')[:5] if i['model_product_id']]
-                context['history'] = Restaurant.objects.rating().filter(id__in=h)
+                context['history'] = Restaurant.objects.filter(city__name__icontains=self.kwargs.get('city')).rating().filter(id__in=h)
         context['cities'] = City.objects.all()
+        context['current_city'] = self.kwargs.get('city')
         return context
 
 class Search(View):
@@ -40,8 +40,13 @@ class Search(View):
         if query:
             context['search_results'] = Restaurant.objects.rating().filter(name__icontains=query)
             context['query'] = query
+            query_count = context['search_results'].count()
+            if query_count > 0:
+                messages.success(request, f"Showing {query_count} Results")
+            else:
+                messages.error(request, f"No Result Found.")
         else:
-            return redirect("restaurant:homepage")
+            return redirect("restaurant:homepage" ,'Ahmedabad')
         get_page_tracking(self.request, self.request.user)
         return render(request, "buyer/home.html", context)
 
@@ -49,7 +54,11 @@ class RestaurantDetail(DetailView):
     model = Restaurant
     template_name= "buyer/detail.html"
     context_object_name = 'restra'
-    queryset = Restaurant.objects.rating()
+
+    def get_queryset(self):
+        print(self.kwargs)
+        queryset = Restaurant.objects.filter(city__name=self.kwargs.get('city')).rating()
+        return queryset
 
     def get_context_data(self, **kwargs):
         type = self.request.GET.get('type')
@@ -59,10 +68,8 @@ class RestaurantDetail(DetailView):
         context['type'] = type
         dishes = self.get_queryset().get(id=self.object.id).dishes.type(type).all()
         context['dishes'] = dishes
-        print(dishes.values_list('id'))
-        context['dishe_rating'] = Dish.objects.filter(id__in=dishes.values_list('id')).annotate(ratings=Round(Avg('rating__rating')), users=Count('rating__buyer'))#.rating.all()
-        for i in Dish.objects.filter(id__in=dishes.values_list('id')):
-            print(i)
-        context['reviews'] = RestaurantRating.objects.filter(restaurant=kwargs['object']).order_by('-created_at')
+        context['dishe_rating'] = Dish.objects.filter(id__in=dishes.values_list('id')).rating()
+        context['reviews'] = RestaurantRating.objects.prefetch_related('restaurant').filter(restaurant=kwargs['object']).order_by('-created_at')
+        context['current_city'] = self.kwargs.get('city')
         get_page_tracking(self.request, self.request.user)
         return context
