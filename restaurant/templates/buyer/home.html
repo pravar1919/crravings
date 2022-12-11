@@ -1,4 +1,8 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %} 
+{% block carousel %}
+  {% include 'carousel.html' %}
+{% endblock carousel %}
+{% block content %}
 {% for message in messages %} 
 <p class="{% if message.tags == 'error' %}text-danger {% else %}text-success{% endif %}">{{ message }}</p>
 {% endfor %}

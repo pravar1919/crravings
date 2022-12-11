@@ -2,7 +2,7 @@
 {% load static %} 
 {% load widget_tweaks %}
 {% block content %}
-<div class="">
+<div class="mt-5">
   {% for message in messages %} 
       <p{% if message.tags == 'error' %} class="text-danger"{% endif %}>{{ message|safe }}</p>
   {% endfor %}

@@ -1,5 +1,5 @@
 {% extends 'base.html' %} {% load static %} {% block content %}
-<div class="mb-3">
+<div class="mb-3 mt-5">
   <div class="d-flex">
     <h4>{{restra.name}}</h4>
     {% if restra.ratings %}
@@ -31,15 +31,9 @@
   </li>
 </ul>
 <div class="tab-content mt-3 mb-5" id="myTabContent">
-  <div class="tab-pane fade w-50" id="about" role="tabpanel" aria-labelledby="about-tab">
-    <div>
-      {{restra.desc}}
-    </div>
-    {{restra.location|safe}}
-  </div>
   <div class="tab-pane fade show active" id="menu" role="tabpanel" aria-labelledby="menu-tab">
     <form method="GET" action=".">
-      <div class="d-flex mb-4 col-3 justify-content-around">
+      <div class="d-flex mb-4 col-3 mx-2">
         <label class="form-check-label" for="flexSwitchCheckChecked1">Veg</label>
         <div class="form-check form-switch">
           <input class="form-check-input" name="type" type="radio" value="veg" id="flexSwitchCheckChecked1">
@@ -58,7 +52,7 @@
     {% if dishes %}
       {% for dish in dishes%}
       <div class="row mb-3">
-        <div class="col-3">
+        <div class="col-3 col-sm-6">
           <span>{{dish.name}}</span>
           <span
             >{% if dish.type == 'VEG' %}
@@ -86,7 +80,7 @@
           {% endfor %}
           </p>
         </div>
-        <div class="col-3">
+        <div class="col-3 col-sm-6">
           <a href="{% if dish.thumbnail %}{{dish.thumbnail.url}}{% endif %}"><img height="100" src="{% if dish.thumbnail %}{{dish.thumbnail.url}}{% endif %}" /></a>
         </div>
       </div>
@@ -94,6 +88,12 @@
     {% else %}
     <p>No Menu Found</p> 
     {% endif %} 
+  </div>
+  <div class="tab-pane fade w-50" id="about" role="tabpanel" aria-labelledby="about-tab">
+    <div>
+      {{restra.desc}}
+    </div>
+    {{restra.location|safe}}
   </div>
   <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
     {% for review in reviews %}
