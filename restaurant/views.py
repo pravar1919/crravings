@@ -25,10 +25,10 @@ class HomePage(BuyerLoginRequiredMixin,ListView):
         context = super(HomePage, self).get_context_data(**kwargs)
         context['more_restras'] = Restaurant.objects.filter(city__name__icontains=self.kwargs.get('city')).exclude(id__in=self.get_queryset().values_list('id', flat=True)).order_by("?")
         if self.request.user.is_authenticated:
-            history_qs = ObjectViewed.objects.filter(user=self.request.user, model_name__contains="restaurant").order_by('-timestamp')
+            history_qs = ObjectViewed.objects.filter(user=self.request.user, model_name__contains="restaurant").order_by('-timestamp')[:5]
             if history_qs:
-                h = [i['model_product_id'] for i in history_qs.values('model_product_id')[:5] if i['model_product_id']]
-                context['history'] = Restaurant.objects.filter(city__name__icontains=self.kwargs.get('city')).rating().filter(id__in=h)
+                h = {i['model_product_id']:i['timestamp'] for i in history_qs.values('model_product_id','timestamp') if i['model_product_id']}
+                context['history'] = Restaurant.objects.filter(city__name__icontains=self.kwargs.get('city')).rating().filter(id__in=h.keys())
         context['cities'] = City.objects.all()
         context['current_city'] = self.kwargs.get('city')
         return context
@@ -37,7 +37,6 @@ class Search(View):
     def get(self, request, *args, **kwargs):
         context = {}
         query = request.GET.get("q")
-        print(request.GET)
         if query:
             context['search_results'] = Restaurant.objects.rating().filter(name__icontains=query)
             context['query'] = query
@@ -58,7 +57,6 @@ class RestaurantDetail(DetailView):
     context_object_name = 'restra'
 
     def get_queryset(self):
-        print(self.kwargs)
         queryset = Restaurant.objects.filter(city__name=self.kwargs.get('city')).rating()
         return queryset
 
