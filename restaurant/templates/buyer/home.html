@@ -3,18 +3,15 @@
 <p class="{% if message.tags == 'error' %}text-danger {% else %}text-success{% endif %}">{{ message }}</p>
 {% endfor %}
 {% if history %}
-<div class="mb-5 mt-3">
   <h5><u>Recent Restaurants</u></h5>
   {% include 'buyer/card.html' with object=history %}  
-</div>
 {% endif %}
 {% if restras %}
-<div class="mb-5 mt-3">
   <h5><u>Top Restaurants</u></h5>
   {% include 'buyer/card.html' with object=restras %}  
-</div>
-{% endif %} {% if more_restras %}
-<h5><u>Restaurants You May Like</u></h5>
+{% endif %} 
+{% if more_restras %}
+  <h5><u>Restaurants You May Like</u></h5>
   {% include 'buyer/card.html' with object=more_restras %}  
 {% endif %} 
 

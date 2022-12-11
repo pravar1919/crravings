@@ -2,15 +2,15 @@
 {% load static %} 
 {% load widget_tweaks %}
 {% block content %}
-<div class="mt-2">
+<div class="">
   {% for message in messages %} 
-      <li{% if message.tags == 'error' %} class="text-danger"{% endif %}>{{ message|safe }}</li>
+      <p{% if message.tags == 'error' %} class="text-danger"{% endif %}>{{ message|safe }}</p>
   {% endfor %}
-  <div class="form-group col-6">
+  <div class="form-group">
     <form action="." method="POST">{% csrf_token %} 
       {% for field in form %}
         <label for="{{ field.label }}" class="col-sm-2 col-form-label">{{ field.label_tag }}</label>
-        <div class="col-sm-5">
+        <div class="col-sm-6 text-center">
           {% render_field field class="form-control" %}
         </div>        
       {% endfor %}

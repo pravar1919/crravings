@@ -1,6 +1,6 @@
 from .models import City
 
-def say_hello(request):
+def cities(request):
     cities = City.objects.all()
     return {
         'cities':cities,

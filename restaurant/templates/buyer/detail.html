@@ -87,7 +87,7 @@
           </p>
         </div>
         <div class="col-3">
-          <img height="100" src="{% if dish.thumbnail %}{{dish.thumbnail.url}}{% endif %}" />
+          <a href="{% if dish.thumbnail %}{{dish.thumbnail.url}}{% endif %}"><img height="100" src="{% if dish.thumbnail %}{{dish.thumbnail.url}}{% endif %}" /></a>
         </div>
       </div>
       {% endfor %}

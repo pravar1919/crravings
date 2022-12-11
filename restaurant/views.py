@@ -37,6 +37,7 @@ class Search(View):
     def get(self, request, *args, **kwargs):
         context = {}
         query = request.GET.get("q")
+        print(request.GET)
         if query:
             context['search_results'] = Restaurant.objects.rating().filter(name__icontains=query)
             context['query'] = query
@@ -48,6 +49,7 @@ class Search(View):
         else:
             return redirect("restaurant:homepage" ,'Ahmedabad')
         get_page_tracking(self.request, self.request.user)
+        context['current_city'] = "Ahmedabad"
         return render(request, "buyer/home.html", context)
 
 class RestaurantDetail(DetailView):

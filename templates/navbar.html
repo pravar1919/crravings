@@ -1,4 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+{% url 'accounts:signin' as signin %}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="/Ahmedabad/">CRRAVINGS</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -6,11 +7,12 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <form class="d-flex" method="GET" action="{% url 'restaurant:search' %}">
-            <input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search" value="{{query}}">
+          <form class="d-flex" method="GET" action="{% url 'restaurant:search' current_city %}">
+            <input class="form-control me-2" name="q" type="search" placeholder="Search  for restras" aria-label="Search" value="{{query}}">
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </ul>
+        {% if request.path != signin %}
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item dropdown">
             <a id="select_city" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -23,8 +25,9 @@
             </ul>
           </li>
         </ul>
+        {% endif %}
         {% if request.user.is_authenticated %}
-            Hi, <strong>{{request.user}}</strong> 
+            <span class="text-light">Hi, <strong>{{request.user}}</strong> </span>
             <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="dropdown">
                     <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -39,7 +42,7 @@
                 </li>
             </ul>
         {% else %}
-            <a href="{% url 'accounts:signin' %}" class="btn">Login</a>
+            <a class="text-light" href="{% url 'accounts:signin' %}" class="btn">Login</a>
         {% endif %}
       </div>
     </div>

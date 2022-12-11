@@ -1,14 +1,6 @@
-<style>
-  .shadow{
-    box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important;
-  }
-  .shadow:hover{
-    box-shadow:0 .5rem 1rem !important
-  }
-</style>
 <div class="d-flex">
   {% for restra in object %}
-  <div class="card mx-1 shadow" style="width: 13rem;">
+  <div class="card mx-1 shadow pt-2 pb-2 mb-4" style="width: 13rem;">
     <a
         href="{% url 'restaurant:restra-detail' restra.city.name restra.id %}"
         style="text-decoration: none; color: black"
