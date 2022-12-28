@@ -52,7 +52,7 @@
     {% if dishes %}
       {% for dish in dishes%}
       <div class="row mb-3">
-        <div class="col-3 col-sm-6">
+        <div class="col-xl-3 col-sm-6">
           <span>{{dish.name}}</span>
           <span
             >{% if dish.type == 'VEG' %}
@@ -80,7 +80,12 @@
           {% endfor %}
           </p>
         </div>
-        <div class="col-3 col-sm-6">
+        <div class="col-xl-3 col-sm-6">
+          <button class="btn btn-primary btn-sm" id="addBtn_{{dish.id}}" href="#" role="button">+</button>
+          <span id="quantity_{{dish.id}}">0</span>
+          <button class="btn btn-primary btn-sm" id="removeBtn_{{dish.id}}" href="#" role="button">-</button>
+        </div>
+        <div class="col-xl-3 col-sm-6">
           <a href="{% if dish.thumbnail %}{{dish.thumbnail.url}}{% endif %}"><img height="100" src="{% if dish.thumbnail %}{{dish.thumbnail.url}}{% endif %}" /></a>
         </div>
       </div>
@@ -113,4 +118,24 @@
   })
  
 </script>
+{% if dishes %}
+{% for dish in dishes%}
+<script>
+  let addBtn_{{dish.id}} = document.getElementById('addBtn_{{dish.id}}')
+  let removeBtn_{{dish.id}} = document.getElementById('removeBtn_{{dish.id}}')
+  let quantity_{{dish.id}} = document.getElementById('quantity_{{dish.id}}')
+
+  addBtn_{{dish.id}}.addEventListener('click', ()=>{
+    return quantity_{{dish.id}}.innerHTML = JSON.parse(quantity_{{dish.id}}.innerHTML) + 1
+  })
+
+  removeBtn_{{dish.id}}.addEventListener('click', ()=>{
+    if (quantity_{{dish.id}}.innerHTML == 0) return
+    return quantity_{{dish.id}}.innerHTML = JSON.parse(quantity_{{dish.id}}.innerHTML) - 1
+
+  })
+
+</script>
+{% endfor %}
+{% endif %}
 {% endblock content %}

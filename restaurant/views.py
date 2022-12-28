@@ -12,6 +12,9 @@ from django.contrib import messages
 def get_page_tracking(request, obj):
     if request.user.is_authenticated:
         object_viewed_signal.send(obj.__class__,instance=obj,request=request)
+
+def home(request):
+    return redirect('restaurant:homepage', 'Ahmedabad')
 class HomePage(BuyerLoginRequiredMixin,ListView):
     model = Restaurant
     template_name= "buyer/home.html"
