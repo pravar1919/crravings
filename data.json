@@ -1,0 +1,7264 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-12-01T10:39:13.049Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "2",
+        "object_repr": "b@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-12-01T10:39:48.010Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "3",
+        "object_repr": "v@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-12-01T10:42:23.294Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "4",
+        "object_repr": "b1@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-12-01T10:43:38.005Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "5",
+        "object_repr": "v1@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-12-01T10:52:50.670Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "3",
+        "object_repr": "v@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Gst number\", \"Pan number\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-12-01T10:53:01.055Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "4",
+        "object_repr": "b1@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Gst number\", \"Pan number\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-12-01T10:53:06.439Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "2",
+        "object_repr": "b@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Gst number\", \"Pan number\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-12-01T10:53:45.311Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "6",
+        "object_repr": "v@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-12-01T10:57:11.646Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "6",
+        "object_repr": "v@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-12-01T11:13:36.099Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "6",
+        "object_repr": "v@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Gst number\", \"Pan number\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-12-01T11:13:45.047Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "6",
+        "object_repr": "v@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Gst number\", \"Pan number\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-12-01T11:13:51.664Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "4",
+        "object_repr": "b1@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-12-01T11:14:27.132Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "7",
+        "object_repr": "v2@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-12-01T11:14:44.342Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "7",
+        "object_repr": "v2@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-12-01T11:14:46.828Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "7",
+        "object_repr": "v2@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-12-01T11:15:07.803Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "7",
+        "object_repr": "v2@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-12-01T11:23:38.246Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "7",
+        "object_repr": "v2@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Gst number\", \"Pan number\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-12-01T11:23:43.680Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "4",
+        "object_repr": "b1@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-12-01T12:23:18.346Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Restaurant object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2022-12-01T12:24:10.245Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Dishe object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2022-12-02T04:53:50.320Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "7",
+        "object_repr": "v2@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Gst number\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2022-12-02T06:51:32.719Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "6",
+        "object_repr": "v@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2022-12-02T07:41:16.763Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "b@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2022-12-02T07:41:22.198Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "b1@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2022-12-02T07:41:26.947Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "7",
+        "object_repr": "v2@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2022-12-02T07:55:07.120Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Dish object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2022-12-02T08:27:25.035Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Restaurant object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2022-12-02T08:50:16.981Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Restaurant object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2022-12-02T08:50:24.539Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Restaurant object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2022-12-02T09:25:50.633Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "RestaurantRating object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2022-12-02T09:26:00.918Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "RestaurantRating object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2022-12-02T09:26:08.810Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "RestaurantRating object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2022-12-02T09:26:15.940Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "4",
+        "object_repr": "RestaurantRating object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2022-12-02T09:26:25.493Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "5",
+        "object_repr": "RestaurantRating object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2022-12-02T09:26:33.527Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "6",
+        "object_repr": "RestaurantRating object (6)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2022-12-02T09:30:46.923Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "7",
+        "object_repr": "RestaurantRating object (7)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2022-12-02T09:31:06.982Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "8",
+        "object_repr": "RestaurantRating object (8)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2022-12-02T09:33:01.354Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "9",
+        "object_repr": "RestaurantRating object (9)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2022-12-02T09:33:17.704Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "10",
+        "object_repr": "RestaurantRating object (10)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2022-12-02T10:58:04.353Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "11",
+        "object_repr": "RestaurantRating object (11)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2022-12-02T10:58:53.227Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "12",
+        "object_repr": "RestaurantRating object (12)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2022-12-02T10:59:07.555Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "13",
+        "object_repr": "RestaurantRating object (13)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2022-12-02T10:59:18.220Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "14",
+        "object_repr": "RestaurantRating object (14)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2022-12-02T10:59:24.023Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "15",
+        "object_repr": "RestaurantRating object (15)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2022-12-02T11:33:07.952Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Restaurant object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2022-12-02T11:37:15.405Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "8",
+        "object_repr": "v3@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2022-12-02T11:41:30.111Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Restaurant object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2022-12-02T11:44:17.699Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Restaurant object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2022-12-02T11:44:39.182Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Restaurant object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Desc\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2022-12-03T05:56:43.474Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Restaurant object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"dish\", \"object\": \"Dish object (3)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2022-12-04T06:03:33.243Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Restaurant object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2022-12-04T06:03:38.963Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Restaurant object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2022-12-04T06:03:45.508Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Restaurant object (3)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2022-12-04T06:03:59.173Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Restaurant object (4)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2022-12-04T06:08:23.020Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Restaurant object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"dish\", \"object\": \"Dish object (4)\"}}, {\"added\": {\"name\": \"dish\", \"object\": \"Dish object (5)\"}}, {\"added\": {\"name\": \"dish\", \"object\": \"Dish object (6)\"}}, {\"added\": {\"name\": \"dish\", \"object\": \"Dish object (7)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2022-12-04T07:12:55.929Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "10",
+        "object_repr": "RestaurantRating object (10)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Comments\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2022-12-04T12:29:59.714Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Restaurant object (4)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Location\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2022-12-04T12:31:12.040Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Restaurant object (4)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2022-12-04T12:32:35.197Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Restaurant object (3)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Location\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2022-12-04T12:32:52.599Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Restaurant object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Location\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2022-12-04T12:33:24.751Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Restaurant object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Location\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2022-12-04T12:34:10.748Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Restaurant object (2)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2022-12-04T12:37:06.857Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "15",
+        "object_repr": "RestaurantRating object (15)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Comments\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2022-12-04T12:54:22.389Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "b@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2022-12-04T12:56:00.685Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "4",
+        "object_repr": "b1@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2022-12-04T12:56:22.508Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "2",
+        "object_repr": "b@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2022-12-04T13:00:55.050Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "2",
+        "object_repr": "b@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2022-12-04T13:01:01.289Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "2",
+        "object_repr": "b@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2022-12-04T13:01:07.000Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "2",
+        "object_repr": "b@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2022-12-04T13:18:48.555Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "b1@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2022-12-04T13:19:02.906Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "b@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2022-12-04T13:23:30.287Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "4",
+        "object_repr": "b1@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2022-12-04T13:24:00.012Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "b@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2022-12-04T13:48:14.949Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Tag object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2022-12-04T13:48:29.432Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Tag object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2022-12-04T13:49:37.389Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "Tag object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2022-12-04T13:49:43.778Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Paneer Tikka",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2022-12-04T13:49:50.934Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "Malai Paneer Tikka",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2022-12-04T13:50:01.846Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "Tag object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2022-12-04T13:50:03.860Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Tandoori Seek Kabab",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2022-12-04T13:50:07.838Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "Hariyali Seek Kabab",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2022-12-04T13:50:12.965Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Paneer Butter Masala",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2022-12-04T13:50:21.774Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "Tag object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2022-12-04T13:50:23.395Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Chicken Butter",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2022-12-04T13:51:23.366Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Dal Fry",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2022-12-04T18:34:44.766Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "4",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:33:50.783735+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2022-12-04T18:34:44.774Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "3",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:33:50.775038+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2022-12-04T18:34:44.781Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "2",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:33:35.388845+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2022-12-04T18:34:44.787Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:33:35.378168+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.258Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "20",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:45:46.656245+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.267Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "19",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:45:07.961416+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.273Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "18",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:44:50.739370+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.279Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "17",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:44:39.380817+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.285Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "16",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:42:14.026581+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.291Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "15",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:42:09.890533+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.299Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "14",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:41:58.809018+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.305Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "13",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:40:21.857276+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.312Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "12",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:37:38.360806+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.318Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "11",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:36:15.833461+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.324Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "10",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:36:14.466844+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.330Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "9",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:35:26.410966+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.336Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "8",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:35:23.885210+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.342Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "7",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:35:06.713618+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.348Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "6",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:34:53.289557+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2022-12-04T18:46:12.354Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "5",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:34:46.654458+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2022-12-04T19:01:30.700Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "35",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 19:01:23.962029+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2022-12-04T19:01:30.729Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "34",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:59:55.805168+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2022-12-04T19:01:30.751Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "33",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:58:18.210205+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2022-12-04T19:01:30.779Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "32",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:58:04.059793+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2022-12-04T19:01:30.808Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "31",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:57:02.599789+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2022-12-04T19:01:30.833Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "30",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:56:01.673383+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2022-12-04T19:01:30.858Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "29",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:54:07.448598+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2022-12-04T19:01:30.887Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "28",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:53:45.916312+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2022-12-04T19:01:30.912Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "27",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:53:37.117162+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2022-12-04T19:01:30.937Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "26",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:51:20.597389+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2022-12-04T19:01:30.966Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "25",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:50:10.206635+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2022-12-04T19:01:30.994Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "24",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:49:44.277450+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2022-12-04T19:01:31.023Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "23",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:49:03.318793+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2022-12-04T19:01:31.051Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "22",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:48:22.025326+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2022-12-04T19:01:31.074Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "21",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 18:46:18.482353+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2022-12-04T19:16:39.947Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "39",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 19:04:33.679431+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2022-12-04T19:16:39.955Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "38",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 19:01:37.708006+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2022-12-04T19:16:39.962Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "37",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 19:01:36.026389+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2022-12-04T19:16:39.968Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "36",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 19:01:32.912048+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2022-12-04T19:39:33.191Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "54",
+        "object_repr": "b@gmail.com viewed: 2022-12-04 19:37:08.772273+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2022-12-05T16:54:21.820Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "FavouritiesRestaurants object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2022-12-05T16:54:29.222Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "2",
+        "object_repr": "FavouritiesRestaurants object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2022-12-06T16:57:41.227Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "1",
+        "object_repr": "City object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2022-12-09T16:59:37.840Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "DishRating object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2022-12-09T17:00:06.750Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "DishRating object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2022-12-10T10:56:01.058Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "2",
+        "object_repr": "Alwar",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2022-12-10T11:51:56.576Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Restaurant object (3)",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"dish\", \"object\": \"Dal Fry\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2022-12-10T11:52:31.564Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "3",
+        "object_repr": "DishRating object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2022-12-10T11:52:46.483Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "4",
+        "object_repr": "DishRating object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 4,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 4,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 4,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 4,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 5,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 5,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 5,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 5,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 6,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 6,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 6,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 6,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 7,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 7,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 7,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 7,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 8,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 8,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 8,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 8,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 1,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 1,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 1,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 1,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add buyers",
+        "content_type": 2,
+        "codename": "add_buyers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change buyers",
+        "content_type": 2,
+        "codename": "change_buyers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete buyers",
+        "content_type": 2,
+        "codename": "delete_buyers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view buyers",
+        "content_type": 2,
+        "codename": "view_buyers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add vendors",
+        "content_type": 3,
+        "codename": "add_vendors"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change vendors",
+        "content_type": 3,
+        "codename": "change_vendors"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete vendors",
+        "content_type": 3,
+        "codename": "delete_vendors"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view vendors",
+        "content_type": 3,
+        "codename": "view_vendors"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add dishes",
+        "content_type": 9,
+        "codename": "add_dishes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change dishes",
+        "content_type": 9,
+        "codename": "change_dishes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete dishes",
+        "content_type": 9,
+        "codename": "delete_dishes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view dishes",
+        "content_type": 9,
+        "codename": "view_dishes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add restaurants",
+        "content_type": 10,
+        "codename": "add_restaurants"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change restaurants",
+        "content_type": 10,
+        "codename": "change_restaurants"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete restaurants",
+        "content_type": 10,
+        "codename": "delete_restaurants"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view restaurants",
+        "content_type": 10,
+        "codename": "view_restaurants"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add dishe",
+        "content_type": 11,
+        "codename": "add_dishe"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change dishe",
+        "content_type": 11,
+        "codename": "change_dishe"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete dishe",
+        "content_type": 11,
+        "codename": "delete_dishe"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view dishe",
+        "content_type": 11,
+        "codename": "view_dishe"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add restaurant",
+        "content_type": 10,
+        "codename": "add_restaurant"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change restaurant",
+        "content_type": 10,
+        "codename": "change_restaurant"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete restaurant",
+        "content_type": 10,
+        "codename": "delete_restaurant"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view restaurant",
+        "content_type": 10,
+        "codename": "view_restaurant"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add dish",
+        "content_type": 11,
+        "codename": "add_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change dish",
+        "content_type": 11,
+        "codename": "change_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete dish",
+        "content_type": 11,
+        "codename": "delete_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view dish",
+        "content_type": 11,
+        "codename": "view_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add buyer",
+        "content_type": 12,
+        "codename": "add_buyer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change buyer",
+        "content_type": 12,
+        "codename": "change_buyer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete buyer",
+        "content_type": 12,
+        "codename": "delete_buyer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view buyer",
+        "content_type": 12,
+        "codename": "view_buyer"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add vendor",
+        "content_type": 13,
+        "codename": "add_vendor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change vendor",
+        "content_type": 13,
+        "codename": "change_vendor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete vendor",
+        "content_type": 13,
+        "codename": "delete_vendor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view vendor",
+        "content_type": 13,
+        "codename": "view_vendor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add restaurant rating",
+        "content_type": 14,
+        "codename": "add_restaurantrating"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change restaurant rating",
+        "content_type": 14,
+        "codename": "change_restaurantrating"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete restaurant rating",
+        "content_type": 14,
+        "codename": "delete_restaurantrating"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view restaurant rating",
+        "content_type": 14,
+        "codename": "view_restaurantrating"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add dish rating",
+        "content_type": 15,
+        "codename": "add_dishrating"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change dish rating",
+        "content_type": 15,
+        "codename": "change_dishrating"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete dish rating",
+        "content_type": 15,
+        "codename": "delete_dishrating"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view dish rating",
+        "content_type": 15,
+        "codename": "view_dishrating"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add tags",
+        "content_type": 16,
+        "codename": "add_tags"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change tags",
+        "content_type": 16,
+        "codename": "change_tags"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete tags",
+        "content_type": 16,
+        "codename": "delete_tags"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view tags",
+        "content_type": 16,
+        "codename": "view_tags"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add tag",
+        "content_type": 16,
+        "codename": "add_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change tag",
+        "content_type": 16,
+        "codename": "change_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete tag",
+        "content_type": 16,
+        "codename": "delete_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view tag",
+        "content_type": 16,
+        "codename": "view_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+        "name": "Can add Object Viewed",
+        "content_type": 17,
+        "codename": "add_objectviewed"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+        "name": "Can change Object Viewed",
+        "content_type": 17,
+        "codename": "change_objectviewed"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+        "name": "Can delete Object Viewed",
+        "content_type": 17,
+        "codename": "delete_objectviewed"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+        "name": "Can view Object Viewed",
+        "content_type": 17,
+        "codename": "view_objectviewed"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+        "name": "Can add favourities restaurants",
+        "content_type": 18,
+        "codename": "add_favouritiesrestaurants"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+        "name": "Can change favourities restaurants",
+        "content_type": 18,
+        "codename": "change_favouritiesrestaurants"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+        "name": "Can delete favourities restaurants",
+        "content_type": 18,
+        "codename": "delete_favouritiesrestaurants"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+        "name": "Can view favourities restaurants",
+        "content_type": 18,
+        "codename": "view_favouritiesrestaurants"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+        "name": "Can add city",
+        "content_type": 19,
+        "codename": "add_city"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+        "name": "Can change city",
+        "content_type": 19,
+        "codename": "change_city"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+        "name": "Can delete city",
+        "content_type": 19,
+        "codename": "delete_city"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+        "name": "Can view city",
+        "content_type": 19,
+        "codename": "view_city"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "accounts",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "accounts",
+        "model": "buyers"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "accounts",
+        "model": "vendors"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "dishes"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "restaurant"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "dish"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "accounts",
+        "model": "buyer"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "accounts",
+        "model": "vendor"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "restaurantrating"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "dishrating"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "tag"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "accounts",
+        "model": "objectviewed"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "favouritiesrestaurants"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "restaurant",
+        "model": "city"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "02a2u6f2tp2fqwfbw8w5y8spnddcw5kq",
+    "fields": {
+        "session_data": ".eJxVjDsKAjEUAO-SWkL-8Vnae4bwXj5mVRLY7Fbi3SWwhbYzw7xZwH2rYR95DUtiFybZ6ZcRxmduU6QHtnvnsbdtXYjPhB928FtP-XU92r9BxVHnFmxCT0qiUV5LDaAdSS_sGb1xqjgtLJkUCygAyiCQvE4IGoUHUST7fAGzpjbi:1p0zoR:YTH6agsXfIWLPiW-exBJY-jvRHeSTh_4kKm9VS0apbw",
+        "expire_date": "2022-12-16T06:46:19.305Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "15pp3lkeap5vh40f5pumzc2w5aclhd6e",
+    "fields": {
+        "session_data": ".eJxVjDsKAjEUAO-SWkL-8Vnae4bwXj5mVRLY7Fbi3SWwhbYzw7xZwH2rYR95DUtiFybZ6ZcRxmduU6QHtnvnsbdtXYjPhB928FtP-XU92r9BxVHnFmxCT0qiUV5LDaAdSS_sGb1xqjgtLJkUCygAyiCQvE4IGoUHUST7fAGzpjbi:1p2b4W:B1W1Zrp8NJnjhMH-OuvKW9BG20GwGH4zUyVzmZSUDTc",
+        "expire_date": "2022-12-20T16:45:32.078Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "32inkl5akjyszm9ht3flqslzgoqjhyji",
+    "fields": {
+        "session_data": ".eJxVjDsKAjEUAO-SWkL-8Vnae4bwXj5mVRLY7Fbi3SWwhbYzw7xZwH2rYR95DUtiFybZ6ZcRxmduU6QHtnvnsbdtXYjPhB928FtP-XU92r9BxVHnFmxCT0qiUV5LDaAdSS_sGb1xqjgtLJkUCygAyiCQvE4IGoUHUST7fAGzpjbi:1p0iTS:45Z1AV4wcb58lYs5WsEDb6QTMhzazvRSoga6rzT2CvA",
+        "expire_date": "2022-12-15T12:15:30.764Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "4fue4tcq93m6socz17uwmd4z63engtnm",
+    "fields": {
+        "session_data": ".eJxVjDsKAjEUAO-SWkL-8Vnae4bwXj5mVRLY7Fbi3SWwhbYzw7xZwH2rYR95DUtiFybZ6ZcRxmduU6QHtnvnsbdtXYjPhB928FtP-XU92r9BxVHnFmxCT0qiUV5LDaAdSS_sGb1xqjgtLJkUCygAyiCQvE4IGoUHUST7fAGzpjbi:1p2EjE:ZZ7kpqm1ncwfH5_zItlbYRyn9NsT-epj9ejq0pG82bY",
+        "expire_date": "2022-12-19T16:54:04.510Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7tqnfll03mqa0au7pcxn4r0z0k3x69hz",
+    "fields": {
+        "session_data": ".eJxVjDsKAjEUAO-SWkL-8Vnae4bwXj5mVRLY7Fbi3SWwhbYzw7xZwH2rYR95DUtiFybZ6ZcRxmduU6QHtnvnsbdtXYjPhB928FtP-XU92r9BxVHnFmxCT0qiUV5LDaAdSS_sGb1xqjgtLJkUCygAyiCQvE4IGoUHUST7fAGzpjbi:1p3giR:u7rSLRnRITplTSlR5B4rbgdy1eVUj3XJ5R1OtNOuAY8",
+        "expire_date": "2022-12-23T16:59:15.671Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "a16poek4h9byuucscd6c93uhvhk5658l",
+    "fields": {
+        "session_data": ".eJxVjDsKAjEUAO-SWkL-8Vnae4bwXj5mVRLY7Fbi3SWwhbYzw7xZwH2rYR95DUtiFybZ6ZcRxmduU6QHtnvnsbdtXYjPhB928FtP-XU92r9BxVHnFmxCT0qiUV5LDaAdSS_sGb1xqjgtLJkUCygAyiCQvE4IGoUHUST7fAGzpjbi:1p1oyO:T-VeQECD36S4fZAZrZrKNm8b6CFAbfVruQ95yyX2_hc",
+        "expire_date": "2022-12-18T13:24:00.031Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "bxwtld02zpv7chsjcb6z84pnjkg7yajm",
+    "fields": {
+        "session_data": ".eJxVjDsKAjEUAO-SWkL-8Vnae4bwXj5mVRLY7Fbi3SWwhbYzw7xZwH2rYR95DUtiFybZ6ZcRxmduU6QHtnvnsbdtXYjPhB928FtP-XU92r9BxVHnFmxCT0qiUV5LDaAdSS_sGb1xqjgtLJkUCygAyiCQvE4IGoUHUST7fAGzpjbi:1p4Oup:mXlYQH1-uYdsixi_90tBl3RBEwRWeL8UzsB9qA8qRAU",
+        "expire_date": "2022-12-25T16:10:59.093Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "crc3gn6dvy160am1sgk2vasckeku2yty",
+    "fields": {
+        "session_data": ".eJxVjDsKAjEUAO-SWkL-8Vnae4bwXj5mVRLY7Fbi3SWwhbYzw7xZwH2rYR95DUtiFybZ6ZcRxmduU6QHtnvnsbdtXYjPhB928FtP-XU92r9BxVHnFmxCT0qiUV5LDaAdSS_sGb1xqjgtLJkUCygAyiCQvE4IGoUHUST7fAGzpjbi:1p1tlS:Uu_9m1EP-C0rR1PlswzUH6dTvtILeCZ4jm_A9GZG_lA",
+        "expire_date": "2022-12-18T18:30:58.861Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ejlvi6e362bo31p66zkteaiwy3q9r5ll",
+    "fields": {
+        "session_data": ".eJxVjDsKAjEUAO-SWkL-8Vnae4bwXj5mVRLY7Fbi3SWwhbYzw7xZwH2rYR95DUtiFybZ6ZcRxmduU6QHtnvnsbdtXYjPhB928FtP-XU92r9BxVHnFmxCT0qiUV5LDaAdSS_sGb1xqjgtLJkUCygAyiCQvE4IGoUHUST7fAGzpjbi:1p0gxl:Lead24o3ORaCT2oWrMswp2TRoPGEFj6omoXuXRkzt84",
+        "expire_date": "2022-12-15T10:38:41.157Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "n650a5j7svt9s28ezqhacwf92sgyzt95",
+    "fields": {
+        "session_data": ".eJxVjDsKAjEUAO-SWkL-8Vnae4bwXj5mVRLY7Fbi3SWwhbYzw7xZwH2rYR95DUtiFybZ6ZcRxmduU6QHtnvnsbdtXYjPhB928FtP-XU92r9BxVHnFmxCT0qiUV5LDaAdSS_sGb1xqjgtLJkUCygAyiCQvE4IGoUHUST7fAGzpjbi:1p4JRn:LbqjIf_wF_wqigFsGnKLQ-Pft3x90WBcNco-D26So9M",
+        "expire_date": "2022-12-25T10:20:39.023Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rzilqk4lf9v9ebpnjic6j2uwqdm73jd6",
+    "fields": {
+        "session_data": ".eJxVjDsKAjEUAO-SWkL-8Vnae4bwXj5mVRLY7Fbi3SWwhbYzw7xZwH2rYR95DUtiFybZ6ZcRxmduU6QHtnvnsbdtXYjPhB928FtP-XU92r9BxVHnFmxCT0qiUV5LDaAdSS_sGb1xqjgtLJkUCygAyiCQvE4IGoUHUST7fAGzpjbi:1p1LQE:qDuRjVlKQNuDbyZqrLXrxEDZMsWo9URbOzDbZZv7Afc",
+        "expire_date": "2022-12-17T05:50:46.275Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "s3hk3lm3jjwqqhyaihhleclw7t80mpa0",
+    "fields": {
+        "session_data": ".eJxVjDsKAjEUAO-SWkL-8Vnae4bwXj5mVRLY7Fbi3SWwhbYzw7xZwH2rYR95DUtiFybZ6ZcRxmduU6QHtnvnsbdtXYjPhB928FtP-XU92r9BxVHnFmxCT0qiUV5LDaAdSS_sGb1xqjgtLJkUCygAyiCQvE4IGoUHUST7fAGzpjbi:1p3yNb:oKeRbRAHEHj50NOYDJnVxZ8eVxpA-1m8k8UlDRQh_x4",
+        "expire_date": "2022-12-24T11:50:55.034Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "up3tdenn9kns3ro52jjgy69y4b11an3v",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQRO_iGlnrHxhKes4Q7dq7OIBsKU4qxN1JpBRQTDPvzbzVgMtchqXzNIxZXZRVh9-OMD25biA_sN6bTq3O00h6U_ROu761zK_r7v4dFOxlXRvyMR-tCANYWuOTBEkiziOSC8Gckgc0Uc4ZfXBsxEdIZBwQMLL6fAHx9zhm:1p4GH8:iPbhVgiEEaHLL4rfakChO54XRRawQH10_PNHsy34z8c",
+        "expire_date": "2022-12-25T06:57:26.081Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "uydyg34pn3cr4u63xvl4jqka2pclauxc",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlm7_oVQ0ucM1npt4wCypTipEHeHSCmgfTPzXsLTtha_9bT4OYqLcOL0uwXiR6o7iHeqtya51XWZg9wVedAupxbT83q4fweFevnWJnOI2iANLp6TIwdKIQAMyrrMI9qEanSBNauQLWDMJoesFWtADZDE-wPZxDd8:1pATJI:O6AsWbEKLFIz4HEip4OokN1mUmUZyMPpnAsKqjeFGNU",
+        "expire_date": "2023-01-11T10:05:20.074Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "v5pniij8l3boizyl0wt7exy4e54g67i0",
+    "fields": {
+        "session_data": "e30:1p44oN:F5BLgOTtHlbGRFgt3FzP7hoiL6tAxiykub9qCEXfTCk",
+        "expire_date": "2022-12-24T18:42:59.126Z"
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$SVEdp9zs6rkhseLgPtL054$tXVrLPwLAvE5Tl0vqlKFRmUzxUVYP9PQ+IDzcdqgpNM=",
+        "last_login": "2022-12-11T16:10:59.082Z",
+        "first_name": "",
+        "last_name": "",
+        "email": "a@gmail.com",
+        "mob_number": 9414472171,
+        "gst_number": null,
+        "pan_number": null,
+        "address": null,
+        "is_active": true,
+        "is_staff": true,
+        "is_superuser": true,
+        "is_vendor": false,
+        "is_buyer": false
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$eW7tufQ6GKv7DrL6JCqTms$Ct/wm8K488B9CgtQ6TZVYyCd2SOqOlIH3gQ7jkk0fE8=",
+        "last_login": "2022-12-14T11:29:28.424Z",
+        "first_name": "Buyer+",
+        "last_name": "BB",
+        "email": "b@gmail.com",
+        "mob_number": 7894561230,
+        "gst_number": null,
+        "pan_number": null,
+        "address": "fdgsdfsd",
+        "is_active": true,
+        "is_staff": false,
+        "is_superuser": false,
+        "is_vendor": false,
+        "is_buyer": true
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$T1tozE0RuNQN18cjhKN5E4$iqa59lCNLfbc/n1+dA6ryJzyi1+afjMHMMXJrXY4Mxs=",
+        "last_login": "2022-12-11T10:31:31.424Z",
+        "first_name": "dfsfds",
+        "last_name": "",
+        "email": "b1@gmail.com",
+        "mob_number": 1234567890,
+        "gst_number": null,
+        "pan_number": null,
+        "address": "dgdfg",
+        "is_active": true,
+        "is_staff": false,
+        "is_superuser": false,
+        "is_vendor": false,
+        "is_buyer": true
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$IlnEOuoQkTgZL4mKPq9gVD$8OcMtuOcwW9PVeWTkVG/yuN697HZLFODXzOZdsfo3yA=",
+        "last_login": "2022-12-28T10:05:20.066Z",
+        "first_name": "",
+        "last_name": "",
+        "email": "v@gmail.com",
+        "mob_number": 3216547890,
+        "gst_number": "324",
+        "pan_number": "42342",
+        "address": "some address",
+        "is_active": true,
+        "is_staff": false,
+        "is_superuser": false,
+        "is_vendor": true,
+        "is_buyer": false
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$FtODNgaYiSUToq79lV4NQ1$CjdMXe7Run3wzv/nNpN1oFahpVvF4WY3fDi7eBKMoPk=",
+        "last_login": null,
+        "first_name": "",
+        "last_name": "",
+        "email": "v2@gmail.com",
+        "mob_number": 789546120,
+        "gst_number": "324",
+        "pan_number": "324234",
+        "address": "dsfsd",
+        "is_active": true,
+        "is_staff": false,
+        "is_superuser": false,
+        "is_vendor": true,
+        "is_buyer": false
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$cHPlgw1LHqNlGjtSTH1FXJ$1Ieyf+Fh1Qd+dGfsXTyml8+LMHx6IssvpaQzg+v21RY=",
+        "last_login": null,
+        "first_name": "",
+        "last_name": "",
+        "email": "v3@gmail.com",
+        "mob_number": 1234567890,
+        "gst_number": "456465",
+        "pan_number": "7987987",
+        "address": "dfsdf",
+        "is_active": true,
+        "is_staff": false,
+        "is_superuser": false,
+        "is_vendor": true,
+        "is_buyer": false
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 40,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-04T19:16:42.661Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 41,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/4/",
+        "model_name": "restaurant",
+        "model_product_id": "4",
+        "timestamp": "2022-12-04T19:16:45.009Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 42,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-04T19:23:01.184Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 43,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-04T19:24:34.333Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 44,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-04T19:24:38.867Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 45,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-04T19:24:41.103Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 46,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-04T19:24:53.825Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 47,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-04T19:25:00.565Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 48,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-04T19:25:04.501Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 49,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-04T19:26:34.830Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 50,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-04T19:30:27.980Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 51,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-04T19:30:58.374Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 52,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-04T19:31:25.954Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 53,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-04T19:31:31.898Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 55,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-04T19:39:36.511Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 56,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=a",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-04T19:39:56.336Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 57,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=a",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-04T19:39:59.223Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 58,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=bh",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-04T19:42:47.695Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 59,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/4/",
+        "model_name": "restaurant",
+        "model_product_id": "4",
+        "timestamp": "2022-12-04T19:42:49.932Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 60,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-04T19:43:22.030Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 61,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-04T19:43:38.201Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 62,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-04T19:43:46.450Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 63,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/3/?type=veg",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-04T19:43:51.516Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 64,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-04T19:44:03.683Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 65,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-05T16:05:56.463Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 66,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-05T16:06:06.254Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 67,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-05T16:06:09.402Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 68,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-05T16:08:32.114Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 69,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T16:14:28.047Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 70,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/4/",
+        "model_name": "restaurant",
+        "model_product_id": "4",
+        "timestamp": "2022-12-05T16:35:50.939Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 71,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-05T16:35:57.744Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 72,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T16:36:50.208Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 73,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=a",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T16:37:07.090Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 74,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=q",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T16:37:10.073Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 75,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=q",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T16:38:02.274Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 76,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-05T16:42:12.787Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 77,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-05T16:42:15.710Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 78,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-05T16:42:19.654Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 79,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/4/",
+        "model_name": "restaurant",
+        "model_product_id": "4",
+        "timestamp": "2022-12-05T16:42:22.971Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 80,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-05T16:42:24.765Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 81,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T16:42:29.615Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 82,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-05T16:49:09.802Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 83,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-05T16:49:43.706Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 84,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T16:56:29.511Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 85,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T16:57:50.945Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 86,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T16:58:59.484Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 87,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T16:59:37.529Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 88,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-05T16:59:48.536Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 89,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T17:00:19.142Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 90,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T17:01:44.140Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 91,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T17:02:30.824Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 92,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T17:02:46.318Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 93,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T17:02:54.204Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 94,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T17:03:10.048Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 95,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T17:03:19.286Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 96,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-05T17:03:27.842Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 97,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T17:03:48.111Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 98,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T17:05:51.109Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 99,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T17:05:58.149Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 100,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T17:07:27.504Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 101,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T17:07:54.172Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 102,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T17:10:32.444Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 103,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-05T17:11:01.685Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 104,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:23:11.053Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 105,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:23:20.942Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 106,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-06T16:26:11.006Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 107,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-06T16:30:57.965Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 108,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:31:01.925Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 109,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=a",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-06T16:35:54.825Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 110,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:36:00.043Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 111,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=a",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-06T16:36:03.290Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 112,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=a",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-06T16:36:24.768Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 113,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:36:45.204Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 114,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:37:58.664Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 115,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:38:15.174Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 116,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:38:51.472Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 117,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:39:25.038Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 118,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:39:25.980Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 119,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:39:27.042Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 120,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:40:21.957Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 121,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:40:58.041Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 122,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:44:07.644Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 123,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:44:09.276Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 124,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/?type=veg",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:44:11.678Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 125,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/?type=nonveg",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:44:13.384Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 126,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:44:20.155Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 127,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/4/",
+        "model_name": "restaurant",
+        "model_product_id": "4",
+        "timestamp": "2022-12-06T16:44:53.345Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 128,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/4/",
+        "model_name": "restaurant",
+        "model_product_id": "4",
+        "timestamp": "2022-12-06T16:44:57.289Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 129,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-06T16:47:45.150Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 130,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-06T16:47:48.777Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 131,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-06T16:49:32.181Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 132,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/4/",
+        "model_name": "restaurant",
+        "model_product_id": "4",
+        "timestamp": "2022-12-06T17:11:11.255Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 133,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:26:02.327Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 134,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:26:18.230Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 135,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:31:58.600Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 136,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:32:58.529Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 137,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:33:30.328Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 138,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:46:01.616Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 139,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:46:31.772Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 140,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:47:39.167Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 141,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:50:07.093Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 142,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:50:31.970Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 143,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:50:47.294Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 144,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:51:14.301Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 145,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:51:55.608Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 146,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:52:12.578Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 147,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:52:42.667Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 148,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:55:09.717Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 149,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:56:34.217Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 150,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:58:25.576Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 151,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T16:58:51.612Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 152,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:00:08.959Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 153,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:00:45.717Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 154,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:00:48.084Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 155,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:01:23.440Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 156,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:03:12.756Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 157,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:03:27.934Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 158,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:03:29.164Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 159,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:03:29.980Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 160,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:03:32.937Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 161,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:03:34.017Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 162,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:03:38.988Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 163,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:03:40.398Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 164,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:03:48.952Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 165,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:03:50.936Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 166,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:04:38.686Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 167,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:04:49.721Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 168,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-09T17:04:55.020Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 169,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-09T17:04:57.502Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 170,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-10T18:48:34.487Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 171,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-10T18:48:41.577Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 172,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-10T18:48:49.741Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 173,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-10T18:48:54.510Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 174,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-10T18:49:15.013Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 175,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-10T18:49:19.482Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 176,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-10T18:49:25.181Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 177,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=l",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-10T18:53:19.371Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 178,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-10T18:53:22.751Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 179,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/1/?type=nonveg",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-10T18:53:27.502Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 180,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-10T18:53:37.401Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 181,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-10T18:53:42.684Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 182,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-11T05:50:55.276Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 183,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/2/?type=veg",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-11T05:51:25.716Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 184,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-11T05:51:41.014Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 185,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-11T05:51:44.690Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 186,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-11T05:52:34.835Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 187,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-11T05:52:45.466Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 188,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T05:53:22.620Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 189,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:03:20.818Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 190,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-11T06:08:55.267Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 191,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=aa",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:39:16.356Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 192,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=a",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:39:20.791Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 193,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=ss",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:40:31.736Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 194,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=aa",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:41:14.151Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 195,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:43:12.202Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 196,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:43:15.982Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 197,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:43:18.881Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 198,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:43:25.743Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 199,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:44:18.715Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 200,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:44:32.127Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 201,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:45:28.366Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 202,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-11T06:57:29.636Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 203,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-11T06:57:34.566Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 204,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-11T06:57:41.412Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 205,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=sa",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:57:45.953Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 206,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=aa",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:57:51.163Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 207,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=ee",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:57:54.264Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 208,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=aa",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:58:01.965Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 209,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/?q=aa",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:58:34.073Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 210,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/Ahmedabad/?q=aa",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:59:14.718Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 211,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/Ahmedabad/?q=aa",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T06:59:19.776Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 212,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/Ahmedabad/?q=aa",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T07:00:09.835Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 213,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/Ahmedabad/?q=aa",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T07:01:00.010Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 214,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/Ahmedabad/?q=aa",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T07:01:01.758Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 215,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/Ahmedabad/?q=aa",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T07:02:31.167Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 216,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/Ahmedabad/?q=ss",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T07:02:35.280Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 217,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/Ahmedabad/?q=abv",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T07:02:38.658Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 218,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/Ahmedabad/?q=ee",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T07:02:41.765Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 219,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-11T07:02:42.987Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 220,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T07:02:46.046Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 221,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T07:03:24.951Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 222,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T07:03:27.190Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 223,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/q/Ahmedabad/?q=a",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T07:42:29.619Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 224,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T07:42:45.346Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 225,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T07:54:20.750Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 226,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T07:54:53.906Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 227,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/4/",
+        "model_name": "restaurant",
+        "model_product_id": "4",
+        "timestamp": "2022-12-11T09:19:01.906Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 228,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-11T09:19:50.159Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 229,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-11T09:19:55.126Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 230,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-11T10:14:36.622Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 231,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-11T10:16:31.885Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 232,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-11T10:16:35.189Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 233,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-11T10:16:40.823Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 234,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-11T10:16:45.829Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 235,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-11T10:16:47.896Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 236,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-11T10:16:49.790Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 237,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-11T10:16:52.652Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 238,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-11T10:18:12.199Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 239,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-11T10:18:16.140Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 240,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-11T10:19:24.386Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 241,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-11T10:20:09.153Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 242,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-11T10:20:48.481Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 243,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-11T10:21:21.428Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 244,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/4/",
+        "model_name": "restaurant",
+        "model_product_id": "4",
+        "timestamp": "2022-12-11T10:21:25.337Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 245,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-11T10:21:29.589Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 246,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-11T10:22:11.056Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 247,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-11T10:22:16.926Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 248,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-11T10:25:09.681Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 249,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-11T10:26:30.625Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 250,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-11T10:26:50.910Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 251,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-11T10:26:58.087Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 252,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-11T10:27:19.256Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 253,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-11T10:27:39.001Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 254,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/Ahmedabad/4/",
+        "model_name": "restaurant",
+        "model_product_id": "4",
+        "timestamp": "2022-12-11T10:27:42.261Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 255,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T10:28:27.667Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 256,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T10:29:27.848Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 257,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T10:29:44.286Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 258,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T10:29:48.504Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 259,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T10:29:49.636Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 260,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T10:29:57.716Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 261,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T10:29:58.782Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 262,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T10:31:11.393Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 263,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T10:31:35.878Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 264,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T10:31:44.940Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 265,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T10:31:58.580Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 266,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T10:32:06.668Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 267,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T10:32:12.301Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 268,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T10:32:23.753Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 269,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/q/Ahmedabad/?q=d",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T10:32:46.770Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 270,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-11T10:32:50.398Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 271,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/Ahmedabad/4/",
+        "model_name": "restaurant",
+        "model_product_id": "4",
+        "timestamp": "2022-12-11T10:33:20.822Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 272,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/Ahmedabad/4/",
+        "model_name": "restaurant",
+        "model_product_id": "4",
+        "timestamp": "2022-12-11T10:33:24.360Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 273,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-11T15:45:49.811Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 274,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-11T15:46:56.094Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 275,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/q/Ahmedabad/?q=11",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T15:47:01.230Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 276,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/q/Alwar/?q=11",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T15:47:11.002Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 277,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/q/Ahmedabad/?q=man",
+        "model_name": "restaurant",
+        "model_product_id": "",
+        "timestamp": "2022-12-11T15:47:23.946Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 278,
+    "fields": {
+        "user": 4,
+        "content_type": 1,
+        "object_id": 4,
+        "path": "/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-11T15:47:26.872Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 279,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/accounts/profile/",
+        "model_name": "accounts",
+        "model_product_id": "",
+        "timestamp": "2022-12-14T11:29:42.961Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 280,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:29:46.450Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 281,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-14T11:30:08.322Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 282,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-14T11:31:33.177Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 283,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-14T11:33:07.149Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 284,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-14T11:33:23.096Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 285,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-14T11:33:31.370Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 286,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-14T11:33:39.333Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 287,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-14T11:33:54.567Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 288,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-14T11:34:03.654Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 289,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-14T11:34:10.933Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 290,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-14T11:34:49.275Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 291,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-14T11:35:05.353Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 292,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-14T11:35:16.920Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 293,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:35:23.841Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 294,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:35:49.895Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 295,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:36:00.047Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 296,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:36:10.236Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 297,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:36:11.017Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 298,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:36:15.239Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 299,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:36:16.238Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 300,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:36:34.585Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 301,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:36:50.839Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 302,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:37:15.363Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 303,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:37:40.767Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 304,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-14T11:37:43.996Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 305,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-14T11:37:47.613Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 306,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/3/",
+        "model_name": "restaurant",
+        "model_product_id": "3",
+        "timestamp": "2022-12-14T11:39:13.531Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 307,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:39:16.437Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 308,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:42:45.956Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 309,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:42:48.086Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 310,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:44:03.237Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 311,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:44:16.327Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 312,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:44:30.048Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 313,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:44:40.678Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 314,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:45:46.560Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 315,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:45:53.866Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 316,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:46:16.749Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 317,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:46:32.205Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 318,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:46:56.596Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 319,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:47:27.790Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 320,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:47:53.158Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 321,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:48:03.976Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 322,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:48:15.457Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 323,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:48:33.905Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 324,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:49:01.766Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 325,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:49:09.647Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 326,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:50:31.264Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 327,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:52:22.861Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 328,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:52:50.885Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 329,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:53:25.473Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 330,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:53:40.559Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 331,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-14T11:54:09.209Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 332,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/2/",
+        "model_name": "restaurant",
+        "model_product_id": "2",
+        "timestamp": "2022-12-28T10:03:48.616Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 333,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-28T10:04:01.836Z"
+    }
+},
+{
+    "model": "accounts.objectviewed",
+    "pk": 334,
+    "fields": {
+        "user": 2,
+        "content_type": 1,
+        "object_id": 2,
+        "path": "/home/Ahmedabad/1/",
+        "model_name": "restaurant",
+        "model_product_id": "1",
+        "timestamp": "2022-12-28T10:04:06.181Z"
+    }
+},
+{
+    "model": "restaurant.city",
+    "pk": 1,
+    "fields": {
+        "name": "Ahmedabad"
+    }
+},
+{
+    "model": "restaurant.city",
+    "pk": 2,
+    "fields": {
+        "name": "Alwar"
+    }
+},
+{
+    "model": "restaurant.restaurant",
+    "pk": 1,
+    "fields": {
+        "vendor": 6,
+        "city": 1,
+        "name": "Mango Masala",
+        "desc": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+        "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14685.491777627516!2d72.49112117551557!3d23.04678494566235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b439d353e05%3A0xb786b9b0533f822d!2s%40Mango!5e0!3m2!1sen!2sin!4v1670157199084!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "active": true,
+        "type": "BOTH",
+        "open_time": "10:00:00",
+        "close_time": "10:00:00",
+        "temporary_closed": false,
+        "created_at": "2022-12-01T12:23:18.345Z",
+        "updated_at": "2022-12-04T12:33:24.750Z"
+    }
+},
+{
+    "model": "restaurant.restaurant",
+    "pk": 2,
+    "fields": {
+        "vendor": 6,
+        "city": 1,
+        "name": "Bhookh lagi hai?",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14688.212527015346!2d72.4887747!3d23.0218213!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85033c0e118d%3A0xb2f31e53d4275859!2sBhookh%20lagi%20hai%3F%20SG%20highway!5e0!3m2!1sen!2sin!4v1670157166064!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "active": true,
+        "type": "PUREVEG",
+        "open_time": "10:00:00",
+        "close_time": "22:00:00",
+        "temporary_closed": false,
+        "created_at": "2022-12-02T08:27:25.034Z",
+        "updated_at": "2022-12-04T12:34:10.745Z"
+    }
+},
+{
+    "model": "restaurant.restaurant",
+    "pk": 3,
+    "fields": {
+        "vendor": 7,
+        "city": 1,
+        "name": "DoubleTree",
+        "desc": "Book direct and save on flexible rates with free 24-hour cancellation. Book direct and find new ways to make the most of your stay. Save More With Honors. Quick & Easy Booking.",
+        "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.8791957042954!2d72.49945761496791!3d23.028207384950218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9bdb0d155a91%3A0x7395c1af3b86b844!2sDoubleTree%20by%20Hilton%20Ahmedabad!5e0!3m2!1sen!2sin!4v1670157148568!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "active": true,
+        "type": "BOTH",
+        "open_time": "10:00:00",
+        "close_time": "22:00:00",
+        "temporary_closed": false,
+        "created_at": "2022-12-02T11:33:07.951Z",
+        "updated_at": "2022-12-10T11:51:56.573Z"
+    }
+},
+{
+    "model": "restaurant.restaurant",
+    "pk": 4,
+    "fields": {
+        "vendor": 8,
+        "city": 1,
+        "name": "Shambhu's Cafe",
+        "desc": "Famous for its diverse range of delicious coffee, Shambhu's Coffee Bar is one of the most talked about cafés in Ahmedabad, India with our lip-smacking",
+        "location": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.372934747253!2d72.498846!3d23.0467853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9ca75ee1ad73%3A0x9babf88241fbd326!2sShambhu&#39;s%20Coffee%20Bar!5e0!3m2!1sen!2sin!4v1670156985617!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "active": true,
+        "type": "PUREVEG",
+        "open_time": "10:00:00",
+        "close_time": "23:00:00",
+        "temporary_closed": false,
+        "created_at": "2022-12-02T11:41:30.109Z",
+        "updated_at": "2022-12-04T12:31:12.038Z"
+    }
+},
+{
+    "model": "restaurant.tag",
+    "pk": 1,
+    "fields": {
+        "name": "dal",
+        "created_at": "2022-12-04T13:48:14.948Z",
+        "updated_at": "2022-12-04T13:48:14.948Z"
+    }
+},
+{
+    "model": "restaurant.tag",
+    "pk": 2,
+    "fields": {
+        "name": "tadka",
+        "created_at": "2022-12-04T13:48:29.430Z",
+        "updated_at": "2022-12-04T13:48:29.430Z"
+    }
+},
+{
+    "model": "restaurant.tag",
+    "pk": 3,
+    "fields": {
+        "name": "paneer",
+        "created_at": "2022-12-04T13:49:37.388Z",
+        "updated_at": "2022-12-04T13:49:37.388Z"
+    }
+},
+{
+    "model": "restaurant.tag",
+    "pk": 4,
+    "fields": {
+        "name": "kabab",
+        "created_at": "2022-12-04T13:50:01.844Z",
+        "updated_at": "2022-12-04T13:50:01.845Z"
+    }
+},
+{
+    "model": "restaurant.tag",
+    "pk": 5,
+    "fields": {
+        "name": "chicken",
+        "created_at": "2022-12-04T13:50:21.773Z",
+        "updated_at": "2022-12-04T13:50:21.773Z"
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 1,
+    "fields": {
+        "restaurant": 1,
+        "name": "Dal Fry",
+        "type": "VEG",
+        "base_price": 120,
+        "shot_description": "",
+        "thumbnail": "dishes_thumbnail/dal_fry.jpeg",
+        "created_at": "2022-12-01T12:24:10.244Z",
+        "updated_at": "2022-12-04T13:51:23.362Z",
+        "tags": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 2,
+    "fields": {
+        "restaurant": 1,
+        "name": "Paneer Butter Masala",
+        "type": "VEG",
+        "base_price": 199,
+        "shot_description": "",
+        "thumbnail": "dishes_thumbnail/paneer.jpg",
+        "created_at": "2022-12-02T07:55:07.119Z",
+        "updated_at": "2022-12-04T13:50:12.964Z",
+        "tags": [
+            3
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 3,
+    "fields": {
+        "restaurant": 1,
+        "name": "Chicken Butter",
+        "type": "NONVEG",
+        "base_price": 255,
+        "shot_description": "Thick gravy",
+        "thumbnail": "dishes_thumbnail/butter-chicken.jpg",
+        "created_at": "2022-12-03T05:56:43.473Z",
+        "updated_at": "2022-12-04T13:50:23.393Z",
+        "tags": [
+            5
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 4,
+    "fields": {
+        "restaurant": 2,
+        "name": "Paneer Tikka",
+        "type": "VEG",
+        "base_price": 180,
+        "shot_description": "",
+        "thumbnail": "",
+        "created_at": "2022-12-04T06:08:23.018Z",
+        "updated_at": "2022-12-04T13:49:43.774Z",
+        "tags": [
+            3
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 5,
+    "fields": {
+        "restaurant": 2,
+        "name": "Malai Paneer Tikka",
+        "type": "VEG",
+        "base_price": 220,
+        "shot_description": "",
+        "thumbnail": "",
+        "created_at": "2022-12-04T06:08:23.019Z",
+        "updated_at": "2022-12-04T13:49:50.930Z",
+        "tags": [
+            3
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 6,
+    "fields": {
+        "restaurant": 2,
+        "name": "Tandoori Seek Kabab",
+        "type": "VEG",
+        "base_price": 140,
+        "shot_description": "",
+        "thumbnail": "",
+        "created_at": "2022-12-04T06:08:23.019Z",
+        "updated_at": "2022-12-04T13:50:03.855Z",
+        "tags": [
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 7,
+    "fields": {
+        "restaurant": 2,
+        "name": "Hariyali Seek Kabab",
+        "type": "VEG",
+        "base_price": 140,
+        "shot_description": "",
+        "thumbnail": "",
+        "created_at": "2022-12-04T06:08:23.019Z",
+        "updated_at": "2022-12-04T13:50:07.836Z",
+        "tags": [
+            4
+        ]
+    }
+},
+{
+    "model": "restaurant.dish",
+    "pk": 8,
+    "fields": {
+        "restaurant": 3,
+        "name": "Dal Fry",
+        "type": "VEG",
+        "base_price": 299,
+        "shot_description": "",
+        "thumbnail": "dishes_thumbnail/dalfry.jpeg",
+        "created_at": "2022-12-10T11:51:56.574Z",
+        "updated_at": "2022-12-10T11:51:56.575Z",
+        "tags": []
+    }
+},
+{
+    "model": "restaurant.restaurantrating",
+    "pk": 1,
+    "fields": {
+        "restaurant": 1,
+        "rating": 4.0,
+        "comments": null,
+        "buyer": 2,
+        "created_at": "2022-12-04T07:05:35.038Z",
+        "updated_at": "2022-12-04T07:05:35.046Z"
+    }
+},
+{
+    "model": "restaurant.restaurantrating",
+    "pk": 2,
+    "fields": {
+        "restaurant": 1,
+        "rating": 4.1,
+        "comments": null,
+        "buyer": 2,
+        "created_at": "2022-12-04T07:05:35.038Z",
+        "updated_at": "2022-12-04T07:05:35.046Z"
+    }
+},
+{
+    "model": "restaurant.restaurantrating",
+    "pk": 3,
+    "fields": {
+        "restaurant": 1,
+        "rating": 3.9,
+        "comments": null,
+        "buyer": 2,
+        "created_at": "2022-12-04T07:05:35.038Z",
+        "updated_at": "2022-12-04T07:05:35.046Z"
+    }
+},
+{
+    "model": "restaurant.restaurantrating",
+    "pk": 4,
+    "fields": {
+        "restaurant": 1,
+        "rating": 3.3,
+        "comments": null,
+        "buyer": 2,
+        "created_at": "2022-12-04T07:05:35.038Z",
+        "updated_at": "2022-12-04T07:05:35.046Z"
+    }
+},
+{
+    "model": "restaurant.restaurantrating",
+    "pk": 5,
+    "fields": {
+        "restaurant": 1,
+        "rating": 3.0,
+        "comments": null,
+        "buyer": 4,
+        "created_at": "2022-12-04T07:05:35.038Z",
+        "updated_at": "2022-12-04T07:05:35.046Z"
+    }
+},
+{
+    "model": "restaurant.restaurantrating",
+    "pk": 6,
+    "fields": {
+        "restaurant": 1,
+        "rating": 3.6,
+        "comments": null,
+        "buyer": 4,
+        "created_at": "2022-12-04T07:05:35.038Z",
+        "updated_at": "2022-12-04T07:05:35.046Z"
+    }
+},
+{
+    "model": "restaurant.restaurantrating",
+    "pk": 7,
+    "fields": {
+        "restaurant": 1,
+        "rating": 1.0,
+        "comments": null,
+        "buyer": 2,
+        "created_at": "2022-12-04T07:05:35.038Z",
+        "updated_at": "2022-12-04T07:05:35.046Z"
+    }
+},
+{
+    "model": "restaurant.restaurantrating",
+    "pk": 8,
+    "fields": {
+        "restaurant": 1,
+        "rating": 1.1,
+        "comments": null,
+        "buyer": 2,
+        "created_at": "2022-12-04T07:05:35.038Z",
+        "updated_at": "2022-12-04T07:05:35.046Z"
+    }
+},
+{
+    "model": "restaurant.restaurantrating",
+    "pk": 9,
+    "fields": {
+        "restaurant": 1,
+        "rating": 1.0,
+        "comments": null,
+        "buyer": 2,
+        "created_at": "2022-12-04T07:05:35.038Z",
+        "updated_at": "2022-12-04T07:05:35.046Z"
+    }
+},
+{
+    "model": "restaurant.restaurantrating",
+    "pk": 10,
+    "fields": {
+        "restaurant": 1,
+        "rating": 2.5,
+        "comments": "fgddfdfgdfgdf",
+        "buyer": 2,
+        "created_at": "2022-12-04T07:05:35.038Z",
+        "updated_at": "2022-12-04T07:12:55.928Z"
+    }
+},
+{
+    "model": "restaurant.restaurantrating",
+    "pk": 11,
+    "fields": {
+        "restaurant": 2,
+        "rating": 5.0,
+        "comments": null,
+        "buyer": 4,
+        "created_at": "2022-12-04T07:05:35.038Z",
+        "updated_at": "2022-12-04T07:05:35.046Z"
+    }
+},
+{
+    "model": "restaurant.restaurantrating",
+    "pk": 12,
+    "fields": {
+        "restaurant": 2,
+        "rating": 1.0,
+        "comments": null,
+        "buyer": 4,
+        "created_at": "2022-12-04T07:05:35.038Z",
+        "updated_at": "2022-12-04T07:05:35.046Z"
+    }
+},
+{
+    "model": "restaurant.restaurantrating",
+    "pk": 13,
+    "fields": {
+        "restaurant": 2,
+        "rating": 4.2,
+        "comments": null,
+        "buyer": 4,
+        "created_at": "2022-12-04T07:05:35.038Z",
+        "updated_at": "2022-12-04T07:05:35.046Z"
+    }
+},
+{
+    "model": "restaurant.restaurantrating",
+    "pk": 14,
+    "fields": {
+        "restaurant": 2,
+        "rating": 5.0,
+        "comments": null,
+        "buyer": 2,
+        "created_at": "2022-12-04T07:05:35.038Z",
+        "updated_at": "2022-12-04T07:05:35.046Z"
+    }
+},
+{
+    "model": "restaurant.restaurantrating",
+    "pk": 15,
+    "fields": {
+        "restaurant": 2,
+        "rating": 5.0,
+        "comments": "Awesome Food. Must Try",
+        "buyer": 2,
+        "created_at": "2022-12-04T07:05:35.038Z",
+        "updated_at": "2022-12-04T12:37:06.856Z"
+    }
+},
+{
+    "model": "restaurant.dishrating",
+    "pk": 1,
+    "fields": {
+        "dish": 1,
+        "rating": 3.0,
+        "comments": "it was ok",
+        "buyer": 4,
+        "created_at": "2022-12-09T16:59:37.839Z",
+        "updated_at": "2022-12-09T16:59:37.839Z"
+    }
+},
+{
+    "model": "restaurant.dishrating",
+    "pk": 2,
+    "fields": {
+        "dish": 1,
+        "rating": 3.2,
+        "comments": "It was not bad at all, on time can have",
+        "buyer": 2,
+        "created_at": "2022-12-09T17:00:06.749Z",
+        "updated_at": "2022-12-09T17:00:06.749Z"
+    }
+},
+{
+    "model": "restaurant.dishrating",
+    "pk": 3,
+    "fields": {
+        "dish": 1,
+        "rating": 1.0,
+        "comments": "",
+        "buyer": 4,
+        "created_at": "2022-12-10T11:52:31.563Z",
+        "updated_at": "2022-12-10T11:52:31.563Z"
+    }
+},
+{
+    "model": "restaurant.dishrating",
+    "pk": 4,
+    "fields": {
+        "dish": 8,
+        "rating": 1.1,
+        "comments": "",
+        "buyer": 4,
+        "created_at": "2022-12-10T11:52:46.482Z",
+        "updated_at": "2022-12-10T11:52:46.482Z"
+    }
+},
+{
+    "model": "restaurant.favouritiesrestaurants",
+    "pk": 1,
+    "fields": {
+        "restaurant": 1,
+        "buyer": 2,
+        "created_at": "2022-12-05T16:54:21.819Z",
+        "update_at": "2022-12-05T16:54:21.819Z"
+    }
+},
+{
+    "model": "restaurant.favouritiesrestaurants",
+    "pk": 2,
+    "fields": {
+        "restaurant": 2,
+        "buyer": 2,
+        "created_at": "2022-12-05T16:54:29.220Z",
+        "update_at": "2022-12-05T16:54:29.220Z"
+    }
+}
+]
